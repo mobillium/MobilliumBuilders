@@ -1,0 +1,6 @@
+framework module MobilliumBuilders {
+  umbrella header "MobilliumBuilders-umbrella.h"
+
+  export *
+  module * { export * }
+}

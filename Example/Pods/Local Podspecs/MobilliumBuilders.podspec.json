@@ -1,0 +1,22 @@
+{
+  "name": "MobilliumBuilders",
+  "version": "0.1.0",
+  "summary": "A short description of MobilliumBuilders.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mehmet Salih Aslan/MobilliumBuilders",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mehmet Salih Aslan": "aslanmsalih@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mehmet Salih Aslan/MobilliumBuilders.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MobilliumBuilders/Classes/**/*"
+}

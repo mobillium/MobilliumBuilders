@@ -1,0 +1,16 @@
+PODS:
+  - MobilliumBuilders (0.1.0)
+
+DEPENDENCIES:
+  - MobilliumBuilders (from `../`)
+
+EXTERNAL SOURCES:
+  MobilliumBuilders:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobilliumBuilders: 46f7dc0714770b7def78f0ec869ff6185bfbe73e
+
+PODFILE CHECKSUM: 61f4e0575a18a912fde25a7e488696c4df09c291
+
+COCOAPODS: 1.10.1
