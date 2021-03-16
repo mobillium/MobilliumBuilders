@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14F6A9DC434E70976A1A52D7 /* Pods_MobilliumBuilders_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299AB978ED542F326C02897B /* Pods_MobilliumBuilders_Tests.framework */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7A00777826013A2C0085E756 /* NSAttributedStringBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +18,8 @@
 		5834189282CB5D0B894D6F76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MobilliumBuilders_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilliumBuilders_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7895CD3E1B1CF98C30AC2E27 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilliumBuilders_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringBuilderTests.swift; sourceTree = "<group>"; };
 		AC7777DF2E3663D0B79A3064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -132,8 +132,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -214,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				7A00777826013A2C0085E756 /* NSAttributedStringBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7895CD3E1B1CF98C30AC2E27 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -336,9 +336,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilliumBuilders_Example.app/MobilliumBuilders_Example";
 			};
 			name = Debug;
 		};
@@ -346,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DBAA8EC06992B6BDA5E1859 /* Pods-MobilliumBuilders_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -356,7 +357,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilliumBuilders_Example.app/MobilliumBuilders_Example";
 			};
 			name = Release;
 		};

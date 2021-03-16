@@ -12,9 +12,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MobilliumBuilders/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MobilliumBuilders' => ['MobilliumBuilders/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
 end
