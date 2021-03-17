@@ -112,7 +112,6 @@ class UIScrollViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertTrue(scrollView.isScrollEnabled)
-        XCTAssertEqual(scrollView.isScrollEnabled, true)
     }
     
 }
