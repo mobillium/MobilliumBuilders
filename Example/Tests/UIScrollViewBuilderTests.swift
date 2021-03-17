@@ -96,7 +96,6 @@ class UIScrollViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertTrue(scrollView.alwaysBounceHorizontal)
-        XCTAssertEqual(scrollView.alwaysBounceHorizontal, true)
     }
     
     func testIsPagingEnabled() {
