@@ -12,6 +12,7 @@
 		A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */; };
 		A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */; };
 		A2BE5FE62601FC9B00DAA587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */; };
+		A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilderTests.swift; sourceTree = "<group>"; };
 		AC7777DF2E3663D0B79A3064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */,
 				A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */,
 				A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */,
+				A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */,
 				7A00777826013A2C0085E756 /* NSAttributedStringBuilderTests.swift in Sources */,
 				A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */,
 				A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */,

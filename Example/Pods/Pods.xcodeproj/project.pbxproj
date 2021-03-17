@@ -13,6 +13,7 @@
 		81CE4F27F06C29323A7C5119B026F7F0 /* MobilliumBuilders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35C39BC8145CCC802592B7334AA9CA /* MobilliumBuilders-dummy.m */; };
 		A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */; };
 		A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */; };
+		A2BE5FFA2602169300DAA587 /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */; };
 		AFC05D3612F2312F128A648BEC2574E9 /* MobilliumBuilders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A95A70857DF560FB6D5E107C10A5215 /* MobilliumBuilders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9E6C0F21AFF9C71FDD64AD013B524F /* Pods-MobilliumBuilders_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8457A0BA4F2B3A757D32D733CBC356E7 /* Pods-MobilliumBuilders_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAE4C8BC3E1648AD5B32DF743F8650D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 		A0D98D488FE03AD72AA4A697CB907257 /* Pods_MobilliumBuilders_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilliumBuilders_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
+		A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilder.swift; sourceTree = "<group>"; };
 		AFF7ADF29ACD1D87A6656BF67AEFB546 /* MobilliumBuilders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.release.xcconfig; sourceTree = "<group>"; };
 		B01C39835ED77306C397F456D552DF2A /* MobilliumBuilders-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobilliumBuilders-Info.plist"; sourceTree = "<group>"; };
 		B0B8CA4DF6FF003DE8CB34EFF9C3965B /* Pods-MobilliumBuilders_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobilliumBuilders_Tests.modulemap"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				7A00777326013A200085E756 /* NSAttributedStringBuilder.swift */,
 				A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */,
 				A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */,
+				A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */,
 				81CE4F27F06C29323A7C5119B026F7F0 /* MobilliumBuilders-dummy.m in Sources */,
 				A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */,
+				A2BE5FFA2602169300DAA587 /* UIScrollViewBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
