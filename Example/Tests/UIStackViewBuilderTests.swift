@@ -9,7 +9,7 @@
 import XCTest
 import MobilliumBuilders
 
-class UIStackViewBuilderTest: XCTestCase {
+class UIStackViewBuilderTests: XCTestCase {
 
     func testAxis() {
         let stackView = UIStackViewBuilder()
