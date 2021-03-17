@@ -47,57 +47,57 @@ class UIButtonBuilderTests: XCTestCase {
     }
     
     func testTitleFont() {
-        let font = UIFont.systemFont(ofSize: 12)
+        let titleFont = UIFont.systemFont(ofSize: 12)
         let button = UIButtonBuilder()
-            .titleFont(font)
+            .titleFont(titleFont)
             .build()
         
-        XCTAssertEqual(button.titleLabel?.font, font)
+        XCTAssertEqual(button.titleLabel?.font, titleFont)
     }
     
     func testTitleColor() {
-        let color = UIColor.blue
+        let titleColor = UIColor.blue
         let button = UIButtonBuilder()
-            .titleColor(color)
+            .titleColor(titleColor)
             .build()
         
-        XCTAssertEqual(button.currentTitleColor, color)
+        XCTAssertEqual(button.currentTitleColor, titleColor)
     }
     
     func testCornerRadius() {
-        let radius: CGFloat = 8
+        let cornerRadius: CGFloat = 8
         let button = UIButtonBuilder()
-            .cornerRadius(radius)
+            .cornerRadius(cornerRadius)
             .build()
         
-        XCTAssertEqual(button.layer.cornerRadius, radius)
+        XCTAssertEqual(button.layer.cornerRadius, cornerRadius)
     }
     
     func testBorderColor() {
-        let color = UIColor.red.cgColor
+        let borderColor = UIColor.red.cgColor
         let button = UIButtonBuilder()
-            .borderColor(color)
+            .borderColor(borderColor)
             .build()
         
-        XCTAssertEqual(button.layer.borderColor, color)
+        XCTAssertEqual(button.layer.borderColor, borderColor)
     }
     
     func testBorderWidth() {
-        let width: CGFloat = 3
+        let borderWidth: CGFloat = 3
         let button = UIButtonBuilder()
-            .borderWidth(width)
+            .borderWidth(borderWidth)
             .build()
         
-        XCTAssertEqual(button.layer.borderWidth, width)
+        XCTAssertEqual(button.layer.borderWidth, borderWidth)
     }
     
     func testTitleShadowColor() {
-        let color = UIColor.green
+        let titleShadowColor = UIColor.green
         let button = UIButtonBuilder()
-            .titleShadowColor(color)
+            .titleShadowColor(titleShadowColor)
             .build()
         
-        XCTAssertEqual(button.currentTitleShadowColor, color)
+        XCTAssertEqual(button.currentTitleShadowColor, titleShadowColor)
     }
     
     func testImage() {
@@ -110,77 +110,77 @@ class UIButtonBuilderTests: XCTestCase {
     }
     
     func testBackgroundImage() {
-        let image = UIImage(named: "ic_face")
+        let backgroundImage = UIImage(named: "ic_face")
         let button = UIButtonBuilder()
-            .backgroundImage(image)
+            .backgroundImage(backgroundImage)
             .build()
         
-        XCTAssertEqual(button.currentBackgroundImage, image)
+        XCTAssertEqual(button.currentBackgroundImage, backgroundImage)
     }
     
     func testContentEdgeInsets() {
-        let insets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        let contentEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         let button = UIButtonBuilder()
-            .contentEdgeInsets(insets)
+            .contentEdgeInsets(contentEdgeInsets)
             .build()
         
-        XCTAssertEqual(button.contentEdgeInsets, insets)
-        XCTAssertEqual(button.contentEdgeInsets.right, 20)
+        XCTAssertEqual(button.contentEdgeInsets, contentEdgeInsets)
+        XCTAssertEqual(button.contentEdgeInsets.right, contentEdgeInsets.right)
     }
     
     func testTitleEdgeInsets() {
-        let insets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        let titleEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         let button = UIButtonBuilder()
-            .titleEdgeInsets(insets)
+            .titleEdgeInsets(titleEdgeInsets)
             .build()
         
-        XCTAssertEqual(button.titleEdgeInsets, insets)
-        XCTAssertEqual(button.titleEdgeInsets.left, insets.left)
+        XCTAssertEqual(button.titleEdgeInsets, titleEdgeInsets)
+        XCTAssertEqual(button.titleEdgeInsets.left, titleEdgeInsets.left)
     }
     
     func testImageEdgeInsets() {
-        let insets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
+        let imageEdgeInsets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
         let button = UIButtonBuilder()
-            .imageEdgeInsets(insets)
+            .imageEdgeInsets(imageEdgeInsets)
             .build()
         
-        XCTAssertEqual(button.imageEdgeInsets, insets)
-        XCTAssertEqual(button.imageEdgeInsets.top, insets.top)
+        XCTAssertEqual(button.imageEdgeInsets, imageEdgeInsets)
+        XCTAssertEqual(button.imageEdgeInsets.top, imageEdgeInsets.top)
     }
     
     func testShadowColor() {
-        let color = UIColor.systemPink.cgColor
+        let shadowColor = UIColor.systemPink.cgColor
         let button = UIButtonBuilder()
-            .shadowColor(color)
+            .shadowColor(shadowColor)
             .build()
         
-        XCTAssertEqual(button.layer.shadowColor, color)
+        XCTAssertEqual(button.layer.shadowColor, shadowColor)
     }
     
     func testShadowOffset() {
-        let size = CGSize(width: 3, height: 3)
+        let shadowOffset = CGSize(width: 3, height: 3)
         let button = UIButtonBuilder()
-            .shadowOffset(size)
+            .shadowOffset(shadowOffset)
             .build()
         
-        XCTAssertEqual(button.layer.shadowOffset, size)
+        XCTAssertEqual(button.layer.shadowOffset, shadowOffset)
     }
     
     func testShadowRadius() {
-        let radius: CGFloat = 8
+        let shadowRadius: CGFloat = 8
         let button = UIButtonBuilder()
-            .shadowRadius(radius)
+            .shadowRadius(shadowRadius)
             .build()
         
-        XCTAssertEqual(button.layer.shadowRadius, radius)
+        XCTAssertEqual(button.layer.shadowRadius, shadowRadius)
     }
     
     func testShadowOpacity() {
-        let opacity: Float = 0.4
+        let shadowOpacity: Float = 0.4
         let button = UIButtonBuilder()
-            .shadowOpacity(opacity)
+            .shadowOpacity(shadowOpacity)
             .build()
         
-        XCTAssertEqual(button.layer.shadowOpacity, opacity)
+        XCTAssertEqual(button.layer.shadowOpacity, shadowOpacity)
     }
 }

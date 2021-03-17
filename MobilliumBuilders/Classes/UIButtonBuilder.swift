@@ -52,20 +52,20 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
-    public func borderColor(_ color: CGColor) -> Self {
-        button.layer.borderColor = color
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        button.layer.borderColor = borderColor
         return self
     }
     
     @discardableResult
-    public func borderWidth(_ width: CGFloat) -> Self {
-        button.layer.borderWidth = width
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        button.layer.borderWidth = borderWidth
         return self
     }
     
     @discardableResult
-    public func titleShadowColor(_ color: UIColor?, for state: UIControl.State = .normal) -> Self {
-        button.setTitleShadowColor(color, for: state)
+    public func titleShadowColor(_ titleShadowColor: UIColor?, for state: UIControl.State = .normal) -> Self {
+        button.setTitleShadowColor(titleShadowColor, for: state)
         return self
     }
     
@@ -76,50 +76,50 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
-    public func backgroundImage(_ image: UIImage?, state: UIControl.State = .normal) -> Self {
-        button.setBackgroundImage(image, for: state)
+    public func backgroundImage(_ backgroundImage: UIImage?, state: UIControl.State = .normal) -> Self {
+        button.setBackgroundImage(backgroundImage, for: state)
         return self
     }
     
     @discardableResult
-    public func contentEdgeInsets(_ insets: UIEdgeInsets) -> Self {
-        button.contentEdgeInsets = insets
+    public func contentEdgeInsets(_ contentEdgeInsets: UIEdgeInsets) -> Self {
+        button.contentEdgeInsets = contentEdgeInsets
         return self
     }
     
     @discardableResult
-    public func titleEdgeInsets(_ insets: UIEdgeInsets) -> Self {
-        button.titleEdgeInsets = insets
+    public func titleEdgeInsets(_ titleEdgeInsets: UIEdgeInsets) -> Self {
+        button.titleEdgeInsets = titleEdgeInsets
         return self
     }
     
     @discardableResult
-    public func imageEdgeInsets(_ insets: UIEdgeInsets) -> Self {
-        button.imageEdgeInsets = insets
+    public func imageEdgeInsets(_ imageEdgeInsets: UIEdgeInsets) -> Self {
+        button.imageEdgeInsets = imageEdgeInsets
         return self
     }
     
     @discardableResult
-    public func shadowColor(_ color: CGColor) -> Self {
-        button.layer.shadowColor = color
+    public func shadowColor(_ shadowColor: CGColor) -> Self {
+        button.layer.shadowColor = shadowColor
         return self
     }
     
     @discardableResult
-    public func shadowOffset(_ size: CGSize) -> Self {
-        button.layer.shadowOffset = size
+    public func shadowOffset(_ shadowOffset: CGSize) -> Self {
+        button.layer.shadowOffset = shadowOffset
         return self
     }
     
     @discardableResult
-    public func shadowRadius(_ radius: CGFloat) -> Self {
-        button.layer.shadowRadius = radius
+    public func shadowRadius(_ shadowRadius: CGFloat) -> Self {
+        button.layer.shadowRadius = shadowRadius
         return self
     }
     
     @discardableResult
-    public func shadowOpacity(_ opacity: Float) -> Self {
-        button.layer.shadowOpacity = opacity
+    public func shadowOpacity(_ shadowOpacity: Float) -> Self {
+        button.layer.shadowOpacity = shadowOpacity
         return self
     }
     
