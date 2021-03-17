@@ -28,7 +28,7 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
-    public func title(_ title: String?, state: UIControl.State = .normal) -> Self {
+    public func title(_ title: String?, for state: UIControl.State = .normal) -> Self {
         button.setTitle(title, for: state)
         return self
     }
@@ -40,7 +40,7 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
-    public func titleColor(_ titleColor: UIColor, state: UIControl.State = .normal) -> Self {
+    public func titleColor(_ titleColor: UIColor, for state: UIControl.State = .normal) -> Self {
         button.setTitleColor(titleColor, for: state)
         return self
     }
@@ -70,13 +70,13 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
-    public func image(_ image: UIImage?, state: UIControl.State = .normal) -> Self {
+    public func image(_ image: UIImage?, for state: UIControl.State = .normal) -> Self {
         button.setImage(image, for: state)
         return self
     }
     
     @discardableResult
-    public func backgroundImage(_ backgroundImage: UIImage?, state: UIControl.State = .normal) -> Self {
+    public func backgroundImage(_ backgroundImage: UIImage?, for state: UIControl.State = .normal) -> Self {
         button.setBackgroundImage(backgroundImage, for: state)
         return self
     }
