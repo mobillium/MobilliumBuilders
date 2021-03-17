@@ -80,7 +80,6 @@ class UIScrollViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertTrue(scrollView.bounces)
-        XCTAssertEqual(scrollView.bounces, true)
     }
     
     func testAlwaysBounceVertical() {
