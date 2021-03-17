@@ -1,5 +1,5 @@
 //
-//  NSAttributedStringBuilder.swift
+//  UIStackViewBuilder.swift
 //  MobilliumBuilders
 //
 //  Created by Murat Çelebi on 17.03.2021.
