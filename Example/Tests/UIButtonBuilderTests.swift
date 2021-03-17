@@ -3,7 +3,7 @@
 //  MobilliumBuilders_Tests
 //
 //  Created by Murat Celebi on 17.03.2021.
-//  Copyright © 2021 CocoaPods. All rights reserved.
+//  Copyright © 2021 Mobillium. All rights reserved.
 //
 
 import XCTest
