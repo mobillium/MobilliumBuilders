@@ -10,6 +10,8 @@
 		14F6A9DC434E70976A1A52D7 /* Pods_MobilliumBuilders_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299AB978ED542F326C02897B /* Pods_MobilliumBuilders_Tests.framework */; };
 		7A00777826013A2C0085E756 /* NSAttributedStringBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */; };
 		A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */; };
+		A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */; };
+		A2BE5FE62601FC9B00DAA587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */; };
 		A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		7895CD3E1B1CF98C30AC2E27 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilliumBuilders_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringBuilderTests.swift; sourceTree = "<group>"; };
 		A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilderTests.swift; sourceTree = "<group>"; };
+		A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonBuilderTests.swift; sourceTree = "<group>"; };
+		A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilderTests.swift; sourceTree = "<group>"; };
 		AC7777DF2E3663D0B79A3064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +58,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				A2BE5FE42601FC8800DAA587 /* Assets */,
 				1CEF0CE4BD3A47729A93A434 /* Pods */,
 				C88647195BD7D646919B513E /* Frameworks */,
 			);
@@ -72,6 +77,7 @@
 			children = (
 				7A00777726013A2C0085E756 /* NSAttributedStringBuilderTests.swift */,
 				A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */,
+				A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */,
 				A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -94,6 +100,14 @@
 				AC7777DF2E3663D0B79A3064 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A2BE5FE42601FC8800DAA587 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		C88647195BD7D646919B513E /* Frameworks */ = {
@@ -166,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BE5FE62601FC9B00DAA587 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +237,7 @@
 				A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */,
 				7A00777826013A2C0085E756 /* NSAttributedStringBuilderTests.swift in Sources */,
 				A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */,
+				A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
