@@ -26,7 +26,6 @@ class UIScrollViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertTrue(scrollView.showsVerticalScrollIndicator)
-        XCTAssertEqual(scrollView.showsVerticalScrollIndicator, true)
     }
     
     func testShowsHorizontalScrollIndicator() {
