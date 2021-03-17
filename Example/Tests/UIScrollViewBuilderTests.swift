@@ -104,7 +104,6 @@ class UIScrollViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertFalse(scrollView.isPagingEnabled)
-        XCTAssertEqual(scrollView.isPagingEnabled, false)
     }
     
     func testIsScrollEnabled() {
