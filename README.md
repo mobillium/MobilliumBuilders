@@ -60,7 +60,7 @@ import MobilliumBuilders
 
 ## Author
 
-Mobillium, salih.aslan@mobillium.com
+[Mobillium](mailto:salih.aslan@mobillium.com)
 
 ## License
 
