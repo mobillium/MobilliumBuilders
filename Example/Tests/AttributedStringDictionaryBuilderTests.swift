@@ -1,5 +1,5 @@
 //
-//  NSAttributedStringBuilderTests.swift
+//  AttributedStringDictionaryBuilderTests.swift
 //  MobilliumBuilders
 //
 //  Created by Mehmet Salih Aslan on 16.03.2021.
@@ -9,11 +9,11 @@
 import XCTest
 import MobilliumBuilders
 
-class NSAttributedStringBuilderTests: XCTestCase {
+class AttributedStringDictionaryBuilderTests: XCTestCase {
         
     func testFont() {
         let font = UIFont.systemFont(ofSize: 12)
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .font(font)
             .build()
         
@@ -24,7 +24,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testParagraphStyle() {
         let paragraphStyle = NSMutableParagraphStyle()
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .paragraphStyle(paragraphStyle)
             .build()
         
@@ -35,7 +35,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testForegroundColor() {
         let foregroundColor = UIColor.white
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .foregroundColor(foregroundColor)
             .build()
         
@@ -46,7 +46,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testBackgroundColor() {
         let backgroundColor = UIColor.red
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .backgroundColor(backgroundColor)
             .build()
         
@@ -57,7 +57,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testKern() {
         let kern: Int = 3
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .kern(kern)
             .build()
         
@@ -69,7 +69,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     func testStrikethrough() {
         let style = NSUnderlineStyle.patternDash
         let color = UIColor.gray
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .strikethrough(style: style, color: color)
             .build()
         
@@ -81,7 +81,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testStrikethroughStyle() {
         let strikethroughStyle = NSUnderlineStyle.patternDash
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .strikethroughStyle(strikethroughStyle)
             .build()
         
@@ -92,7 +92,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testStrikethroughColor() {
         let strikethroughColor = UIColor.blue
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .strikethroughColor(strikethroughColor)
             .build()
         
@@ -104,7 +104,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     func testUnderline() {
         let style = NSUnderlineStyle.patternDashDot
         let color = UIColor.cyan
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .underline(style: style, color: color)
             .build()
         
@@ -116,7 +116,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testUnderlineStyle() {
         let underlineStyle = NSUnderlineStyle.patternDot
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .underlineStyle(underlineStyle)
             .build()
         
@@ -127,7 +127,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testUnderlineColor() {
         let underlineColor = UIColor.yellow
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .underlineColor(underlineColor)
             .build()
         
@@ -139,7 +139,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     func testStroke() {
         let color = UIColor.brown
         let width: Int = 1
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .stroke(color: color, width: width)
             .build()
         
@@ -151,7 +151,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testStrokeColor() {
         let strokeColor = UIColor.green
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .strokeColor(strokeColor)
             .build()
         
@@ -162,7 +162,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     
     func testStrokeWidth() {
         let strokeWidth: Int = 3
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .strokeWidth(strokeWidth)
             .build()
         
@@ -176,7 +176,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
             XCTAssert(false)
             return
         }
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .link(link)
             .build()
         
