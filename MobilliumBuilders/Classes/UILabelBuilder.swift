@@ -74,12 +74,6 @@ public class UILabelBuilder<T: UILabel> {
     }
     
     @discardableResult
-    public func isHighlighted(_ isHighlighted: Bool) -> Self {
-        label.isHighlighted = isHighlighted
-        return self
-    }
-    
-    @discardableResult
     public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
         label.isUserInteractionEnabled = isUserInteractionEnabled
         return self
