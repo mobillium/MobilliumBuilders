@@ -108,11 +108,4 @@ class UIViewBuilderTests: XCTestCase {
         XCTAssertFalse(view.isOpaque)
     }
 
-    func testBuildClearBackgroundView() {
-        let backgroundColor = UIColor.clear
-        let view = UIViewBuilder.buildClearBackgroundView()
-        
-        XCTAssertEqual(view.backgroundColor, backgroundColor)
-    }
-    
 }
