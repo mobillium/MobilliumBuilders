@@ -97,15 +97,6 @@ class UILabelBuilderTests: XCTestCase {
         XCTAssertEqual(label.shadowOffset, shadowOffset)
     }
     
-    func testHighlightedTextColor() {
-        let highlightedTextColor = UIColor.green
-        let label = UILabelBuilder()
-            .highlightedTextColor(highlightedTextColor)
-            .build()
-        
-        XCTAssertEqual(label.highlightedTextColor, highlightedTextColor)
-    }
-    
     func testIsUserInteractionEnabled() {
         let label = UILabelBuilder()
             .isUserInteractionEnabled(false)
