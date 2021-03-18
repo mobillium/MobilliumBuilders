@@ -85,13 +85,3 @@ public class UIViewBuilder<T: UIView> {
     }
     
 }
-
-public extension UIViewBuilder {
-    
-    static func buildClearBackgroundView() -> UIView {
-        return UIViewBuilder()
-            .backgroundColor(.clear)
-            .build()
-    }
-    
-}
