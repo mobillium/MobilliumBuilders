@@ -68,12 +68,6 @@ public class UILabelBuilder<T: UILabel> {
     }
     
     @discardableResult
-    public func highlightedTextColor(_ highlightedTextColor: UIColor) -> Self {
-        label.highlightedTextColor = highlightedTextColor
-        return self
-    }
-    
-    @discardableResult
     public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
         label.isUserInteractionEnabled = isUserInteractionEnabled
         return self
