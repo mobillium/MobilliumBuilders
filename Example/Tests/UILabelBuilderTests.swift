@@ -139,12 +139,4 @@ class UILabelBuilderTests: XCTestCase {
         XCTAssertEqual(label.minimumScaleFactor, minimumScaleFactor)
     }
     
-    func testPreferredMaxLayoutWidth() {
-        let preferredMaxLayoutWidth: CGFloat = 20
-        let label = UILabelBuilder()
-            .preferredMaxLayoutWidth(preferredMaxLayoutWidth)
-            .build()
-        
-        XCTAssertEqual(label.preferredMaxLayoutWidth, preferredMaxLayoutWidth)
-    }
 }
