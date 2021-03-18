@@ -67,7 +67,7 @@ class NSAttributedStringBuilderTests: XCTestCase {
     }
     
     func testStrikethrough() {
-        let style = NSUnderlineStyle.patternSolid
+        let style = NSUnderlineStyle.patternDash
         let color = UIColor.gray
         let attributes = NSAttributedStringBuilder()
             .strikethrough(style: style, color: color)
