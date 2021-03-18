@@ -122,14 +122,6 @@ class UILabelBuilderTests: XCTestCase {
         XCTAssertFalse(label.isUserInteractionEnabled)
     }
     
-    func testIsEnabled() {
-        let label = UILabelBuilder()
-            .isEnabled(true)
-            .build()
-        
-        XCTAssertTrue(label.isEnabled)
-    }
-    
     func testMinimumScaleFactor() {
         let minimumScaleFactor: CGFloat = 0.5
         let label = UILabelBuilder()
