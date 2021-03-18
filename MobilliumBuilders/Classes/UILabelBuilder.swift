@@ -97,12 +97,6 @@ public class UILabelBuilder<T: UILabel> {
         return self
     }
     
-    @discardableResult
-    public func preferredMaxLayoutWidth(_ preferredMaxLayoutWidth: CGFloat) -> Self {
-        label.preferredMaxLayoutWidth = preferredMaxLayoutWidth
-        return self
-    }
-    
     public func build() -> T {
         return label
     }
