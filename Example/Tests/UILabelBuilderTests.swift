@@ -58,7 +58,7 @@ class UILabelBuilderTests: XCTestCase {
     }
     
     func testAttributedText() {
-        let attributes = NSAttributedStringBuilder()
+        let attributes = AttributedStringDictionaryBuilder()
             .font(.systemFont(ofSize: 12))
             .build()
         

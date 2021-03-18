@@ -23,7 +23,7 @@ pod 'MobilliumBuilders'
 ```
 ## Usage
 MobilliumBuilders comes with these builders.
-- NSAttributedStringBuilder
+- AttributedStringDictionaryBuilder
 - UIButtonBuilder
 - UIImageViewBuilder
 - UILabelBuilder

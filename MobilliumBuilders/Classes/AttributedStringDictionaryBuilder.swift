@@ -1,5 +1,5 @@
 //
-//  NSAttributedStringBuilder.swift
+//  AttributedStringDictionaryBuilder.swift
 //  MobilliumBuilders
 //
 //  Created by Mehmet Salih Aslan on 16.03.2021.
@@ -7,10 +7,10 @@
 
 import UIKit
 
-public class NSAttributedStringBuilder {
+public class AttributedStringDictionaryBuilder {
     
-    public typealias NSAttributedStringDictionary = [NSAttributedString.Key: Any]
-    private var attributes: NSAttributedStringDictionary = [:]
+    public typealias AttributedStringDictionary = [NSAttributedString.Key: Any]
+    private var attributes: AttributedStringDictionary = [:]
     
     public init() {}
     
@@ -107,8 +107,7 @@ public class NSAttributedStringBuilder {
         return self
     }
     
-    @discardableResult
-    public func build() -> NSAttributedStringDictionary {
+    public func build() -> AttributedStringDictionary {
         return attributes
     }
 
