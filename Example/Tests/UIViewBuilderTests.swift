@@ -37,6 +37,14 @@ class UIViewBuilderTests: XCTestCase {
         XCTAssertTrue(view.clipsToBounds)
     }
     
+    func testMasksToBounds() {
+        let view = UIViewBuilder()
+            .masksToBounds(true)
+            .build()
+        
+        XCTAssertTrue(view.layer.masksToBounds)
+    }
+    
     func testBorderColor() {
         let borderColor = UIColor.red.cgColor
         let view = UIViewBuilder()

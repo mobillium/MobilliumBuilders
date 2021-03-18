@@ -3,7 +3,6 @@
 //  MobilliumBuilders
 //
 //  Created by Murat Celebi on 18.03.2021.
-//  Copyright © 2021 Mobillium. All rights reserved.
 //
 
 import UIKit
@@ -29,6 +28,12 @@ public class UIViewBuilder<T: UIView> {
     @discardableResult
     public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
         view.clipsToBounds = clipsToBounds
+        return self
+    }
+    
+    @discardableResult
+    public func masksToBounds(_ masksToBounds: Bool) -> Self {
+        view.layer.masksToBounds = masksToBounds
         return self
     }
     

@@ -3,7 +3,6 @@
 //  MobilliumBuilders
 //
 //  Created by Murat Çelebi on 17.03.2021.
-//  Copyright © 2021 Mobillium. All rights reserved.
 //
 
 import UIKit
