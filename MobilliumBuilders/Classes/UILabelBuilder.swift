@@ -86,12 +86,6 @@ public class UILabelBuilder<T: UILabel> {
     }
     
     @discardableResult
-    public func isEnabled(_ isEnabled: Bool) -> Self {
-        label.isEnabled = isEnabled
-        return self
-    }
-    
-    @discardableResult
     public func minimumScaleFactor(_ minimumScaleFactor: CGFloat) -> Self {
         label.minimumScaleFactor = minimumScaleFactor
         return self
