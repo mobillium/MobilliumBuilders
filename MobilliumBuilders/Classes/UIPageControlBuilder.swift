@@ -71,7 +71,7 @@ public class UIPageControlBuilder<T: UIPageControl> {
     
     @discardableResult
     public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
-        pageControl.accessibilityIdentifier = accessibilityIdentifier
+        self.pageControl.accessibilityIdentifier = accessibilityIdentifier
         return self
     }
     
