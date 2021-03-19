@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 9.0+
+- Swift 5.0+
 
 ## Installation
 
@@ -19,10 +21,41 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MobilliumBuilders'
 ```
+## Usage
+MobilliumBuilders comes with these builders.
+- AttributedStringDictionaryBuilder
+- UIButtonBuilder
+- UIImageViewBuilder
+- UILabelBuilder
+- UIScrollViewBuilder
+- UIStackViewBuilder
+- UITextFieldBuilder
+- UIViewBuilder
 
-## Author
+Example usage:
+```swift
+import MobilliumBuilders
 
-Mehmet Salih Aslan, aslanmsalih@gmail.com
+  let button = UIButtonBuilder()
+      .title("button")
+      .backgroundColor(UIColor.red)
+      .titleColor(UIColor.white)
+      .titleFont(.systemFont(ofSize: 12))
+      .cornerRadius(8)
+      .build()
+
+ let stackView = UIStackViewBuilder()
+      .axis(.vertical)
+      .spacing(10)
+      .alignment(.center)
+      .distribution(.fillEqually)
+      .build()
+
+ let view = UIViewBuilder()
+      .backgroundColor(UIColor.red)
+      .build()
+
+```
 
 ## License
 
