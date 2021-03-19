@@ -14,6 +14,7 @@
 		A22847B926032A6700C790FE /* UIViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847B826032A6700C790FE /* UIViewBuilder.swift */; };
 		A22847C326033BCC00C790FE /* UIImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847C226033BCC00C790FE /* UIImageViewBuilder.swift */; };
 		A22848132603583700C790FE /* UITextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22848122603583700C790FE /* UITextFieldBuilder.swift */; };
+		A253CC7626047C8300E55164 /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC7526047C8300E55164 /* UITableViewBuilder.swift */; };
 		A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */; };
 		A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */; };
 		A2BE5FFA2602169300DAA587 /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */; };
@@ -50,6 +51,7 @@
 		A22847B826032A6700C790FE /* UIViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBuilder.swift; sourceTree = "<group>"; };
 		A22847C226033BCC00C790FE /* UIImageViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewBuilder.swift; sourceTree = "<group>"; };
 		A22848122603583700C790FE /* UITextFieldBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilder.swift; sourceTree = "<group>"; };
+		A253CC7526047C8300E55164 /* UITableViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewBuilder.swift; sourceTree = "<group>"; };
 		A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilder.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				A22847B826032A6700C790FE /* UIViewBuilder.swift */,
 				A22847C226033BCC00C790FE /* UIImageViewBuilder.swift */,
 				A22848122603583700C790FE /* UITextFieldBuilder.swift */,
+				A253CC7526047C8300E55164 /* UITableViewBuilder.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				A2BE60262602291D00DAA587 /* UILabelBuilder.swift in Sources */,
 				7A00777426013A200085E756 /* AttributedStringDictionaryBuilder.swift in Sources */,
 				A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */,
+				A253CC7626047C8300E55164 /* UITableViewBuilder.swift in Sources */,
 				A22847B926032A6700C790FE /* UIViewBuilder.swift in Sources */,
 				A22848132603583700C790FE /* UITextFieldBuilder.swift in Sources */,
 				81CE4F27F06C29323A7C5119B026F7F0 /* MobilliumBuilders-dummy.m in Sources */,
