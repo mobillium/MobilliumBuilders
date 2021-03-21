@@ -46,24 +46,30 @@ class UIPageControlBuilderTests: XCTestCase {
         XCTAssertEqual(pageControl.currentPageIndicatorTintColor, currentPageIndicatorTintColor)
     }
     
-    @available(iOS 14.0, *)
     func testBackgroundStyle() {
-        let backgroundStyle = UIPageControl.BackgroundStyle.automatic
-        let pageControl = UIPageControlBuilder()
-            .backgroundStyle(backgroundStyle)
-            .build()
-        
-        XCTAssertEqual(pageControl.backgroundStyle, backgroundStyle)
+        if #available(iOS 14.0, *) {
+            let backgroundStyle = UIPageControl.BackgroundStyle.minimal
+            let pageControl = UIPageControlBuilder()
+                .backgroundStyle(backgroundStyle)
+                .build()
+            
+            XCTAssertEqual(pageControl.backgroundStyle, backgroundStyle)
+        } else {
+            XCTAssertTrue(true)
+        }        
     }
     
-    @available(iOS 14.0, *)
     func testPreferredIndicatorImage() {
-        let preferredIndicatorImage = UIImage(named: "ic_face")
-        let pageControl = UIPageControlBuilder()
-            .preferredIndicatorImage(preferredIndicatorImage)
-            .build()
-        
-        XCTAssertEqual(pageControl.preferredIndicatorImage, preferredIndicatorImage)
+         if #available(iOS 14.0, *) {
+            let preferredIndicatorImage = UIImage(named: "ic_face")
+            let pageControl = UIPageControlBuilder()
+                .preferredIndicatorImage(preferredIndicatorImage)
+                .build()
+            
+            XCTAssertEqual(pageControl.preferredIndicatorImage, preferredIndicatorImage)
+        } else {
+            XCTAssertTrue(true)
+        }
     }
     
     func testIsUserInteractionEnabled() {
