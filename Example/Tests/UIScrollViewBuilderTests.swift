@@ -10,7 +10,7 @@ import XCTest
 import MobilliumBuilders
 
 class UIScrollViewBuilderTests: XCTestCase {
-
+    
     func testBackgroundColor() {
         let backgroundColor = UIColor.lightGray
         let scrollView = UIScrollViewBuilder()
@@ -35,7 +35,7 @@ class UIScrollViewBuilderTests: XCTestCase {
         
         XCTAssertFalse(scrollView.showsHorizontalScrollIndicator)
     }
-
+    
     func testContentInset() {
         let contentInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         let scrollView = UIScrollViewBuilder()
@@ -114,4 +114,36 @@ class UIScrollViewBuilderTests: XCTestCase {
         XCTAssertTrue(scrollView.isScrollEnabled)
     }
     
+    func testIsUserInteractionEnabled() {
+        let scrollView = UIScrollViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(scrollView.isUserInteractionEnabled)
+    }
+    
+    func testIsHidden() {
+        let scrollView = UIScrollViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(scrollView.isHidden)
+    }
+    
+    func testIsAccessibilityElement() {
+        let scrollView = UIScrollViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(scrollView.isAccessibilityElement)
+    }
+    
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "scrollView"
+        let scrollView = UIScrollViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(scrollView.accessibilityIdentifier, accessibilityIdentifier)
+    }
 }

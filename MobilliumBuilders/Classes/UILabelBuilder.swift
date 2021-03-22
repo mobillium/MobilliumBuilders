@@ -15,67 +15,85 @@ public class UILabelBuilder<T: UILabel> {
     
     @discardableResult
     public func text(_ text: String) -> Self {
-        label.text = text
+        self.label.text = text
         return self
     }
     
     @discardableResult
     public func textColor(_ textColor: UIColor) -> Self {
-        label.textColor = textColor
+        self.label.textColor = textColor
         return self
     }
     
     @discardableResult
     public func font(_ font: UIFont?) -> Self {
-        label.font = font
+        self.label.font = font
         return self
     }
     
     @discardableResult
     public func textAlignment(_ textAlignment: NSTextAlignment) -> Self {
-        label.textAlignment = textAlignment
+        self.label.textAlignment = textAlignment
         return self
     }
     
     @discardableResult
     public func numberOfLines(_ numberOfLines: Int) -> Self {
-        label.numberOfLines = numberOfLines
+        self.label.numberOfLines = numberOfLines
         return self
     }
     
     @discardableResult
     public func attributedText(_ attributedText: NSAttributedString) -> Self {
-        label.attributedText = attributedText
+        self.label.attributedText = attributedText
         return self
     }
     
     @discardableResult
     public func adjustsFontSizeToFitWidth(_ adjustsFontSizeToFitWidth: Bool) -> Self {
-        label.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth
+        self.label.adjustsFontSizeToFitWidth = adjustsFontSizeToFitWidth
         return self
     }
     
     @discardableResult
     public func shadowColor(_ shadowColor: UIColor) -> Self {
-        label.shadowColor = shadowColor
+        self.label.shadowColor = shadowColor
         return self
     }
     
     @discardableResult
     public func shadowOffset(_ shadowOffset: CGSize) -> Self {
-        label.shadowOffset = shadowOffset
+        self.label.shadowOffset = shadowOffset
         return self
     }
     
     @discardableResult
     public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
-        label.isUserInteractionEnabled = isUserInteractionEnabled
+        self.label.isUserInteractionEnabled = isUserInteractionEnabled
         return self
     }
     
     @discardableResult
     public func minimumScaleFactor(_ minimumScaleFactor: CGFloat) -> Self {
-        label.minimumScaleFactor = minimumScaleFactor
+        self.label.minimumScaleFactor = minimumScaleFactor
+        return self
+    }
+    
+    @discardableResult
+    public func isHidden(_ isHidden: Bool) -> Self {
+        self.label.isHidden = isHidden
+        return self
+    }
+
+    @discardableResult
+    public func isAccessibilityElement(_ isAccessibilityElement: Bool) -> Self {
+        self.label.isAccessibilityElement = isAccessibilityElement
+        return self
+    }
+
+    @discardableResult
+    public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
+        self.label.accessibilityIdentifier = accessibilityIdentifier
         return self
     }
     

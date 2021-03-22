@@ -126,4 +126,36 @@ class UITextFieldBuilderTests: XCTestCase {
         XCTAssertEqual(textField.inputAccessoryView, toolbar)
     }
     
+    func testIsUserInteractionEnabled() {
+        let textField = UITextFieldBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(textField.isUserInteractionEnabled)
+    }
+    
+    func testIsHidden() {
+        let textField = UITextFieldBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(textField.isHidden)
+    }
+    
+    func testIsAccessibilityElement() {
+        let textField = UITextFieldBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(textField.isAccessibilityElement)
+    }
+    
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "textField"
+        let textField = UITextFieldBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(textField.accessibilityIdentifier, accessibilityIdentifier)
+    }
 }
