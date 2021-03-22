@@ -116,4 +116,37 @@ class UIViewBuilderTests: XCTestCase {
         XCTAssertFalse(view.isOpaque)
     }
 
+    func testIsUserInteractionEnabled() {
+        let view = UIViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(view.isUserInteractionEnabled)
+    }
+
+    func testIsHidden() {
+        let view = UIViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(view.isHidden)
+    }
+
+    func testIsAccessibilityElement() {
+        let view = UIViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(view.isAccessibilityElement)
+    }
+
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "view"
+        let view = UIViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(view.accessibilityIdentifier, accessibilityIdentifier)
+    }
+    
 }
