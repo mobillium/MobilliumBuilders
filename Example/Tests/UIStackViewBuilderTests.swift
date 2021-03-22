@@ -51,5 +51,14 @@ class UIStackViewBuilderTests: XCTestCase {
         XCTAssertFalse(stackView.distribution == .fill)
         XCTAssertFalse(stackView.distribution == .fillProportionally)
     }
+    
+    func testBackgroundColor() {
+        let backgroundColor = UIColor.red
+        let stackView = UIStackViewBuilder()
+            .backgroundColor(backgroundColor)
+            .build()
+        
+        XCTAssertEqual(stackView.backgroundColor, backgroundColor)
+    }
 
 }
