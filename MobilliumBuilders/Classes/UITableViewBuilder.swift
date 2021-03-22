@@ -103,6 +103,30 @@ public class UITableViewBuilder<T: UITableView> {
         return self
     }
     
+    @discardableResult
+    public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+        self.tableView.isUserInteractionEnabled = isUserInteractionEnabled
+        return self
+    }
+    
+    @discardableResult
+    public func isHidden(_ isHidden: Bool) -> Self {
+        self.tableView.isHidden = isHidden
+        return self
+    }
+    
+    @discardableResult
+    public func isAccessibilityElement(_ isAccessibilityElement: Bool) -> Self {
+        self.tableView.isAccessibilityElement = isAccessibilityElement
+        return self
+    }
+    
+    @discardableResult
+    public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
+        self.tableView.accessibilityIdentifier = accessibilityIdentifier
+        return self
+    }
+    
     public func build() -> T {
         return tableView
     }

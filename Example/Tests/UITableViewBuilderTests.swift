@@ -10,7 +10,7 @@ import XCTest
 import MobilliumBuilders
 
 class UITableViewBuilderTests: XCTestCase {
-
+    
     func testBackgroundColor() {
         let backgroundColor = UIColor.blue
         let tableView = UITableViewBuilder()
@@ -64,7 +64,7 @@ class UITableViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(tableView.estimatedSectionHeaderHeight, estimatedSectionHeaderHeight)
     }
-
+    
     func testEstimatedSectionFooterHeight() {
         let estimatedSectionFooterHeight: CGFloat = 150
         let tableView = UITableViewBuilder()
@@ -141,5 +141,38 @@ class UITableViewBuilderTests: XCTestCase {
             .build()
         
         XCTAssertEqual(tableView.keyboardDismissMode, keyboardDismissMode)
+    }
+    
+    func testIsUserInteractionEnabled() {
+        let tableView = UITableViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(tableView.isUserInteractionEnabled)
+    }
+    
+    func testIsHidden() {
+        let tableView = UITableViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(tableView.isHidden)
+    }
+    
+    func testIsAccessibilityElement() {
+        let tableView = UITableViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(tableView.isAccessibilityElement)
+    }
+    
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "tableView"
+        let tableView = UITableViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(tableView.accessibilityIdentifier, accessibilityIdentifier)
     }
 }
