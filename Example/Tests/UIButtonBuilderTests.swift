@@ -191,7 +191,7 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertTrue(button.isUserInteractionEnabled)
     }
-
+    
     func testIsHidden() {
         let button = UIButtonBuilder()
             .isHidden(false)
@@ -199,7 +199,7 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertFalse(button.isHidden)
     }
-
+    
     func testIsAccessibilityElement() {
         let button = UIButtonBuilder()
             .isAccessibilityElement(true)
@@ -207,7 +207,7 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertTrue(button.isAccessibilityElement)
     }
-
+    
     func testAccessibilityIdentifier() {
         let accessibilityIdentifier = "stackView"
         let button = UIButtonBuilder()
@@ -215,5 +215,33 @@ class UIButtonBuilderTests: XCTestCase {
             .build()
         
         XCTAssertEqual(button.accessibilityIdentifier, accessibilityIdentifier)
+    }
+    
+    func testCustomButton() {
+        let font = UIFont.systemFont(ofSize: 12, weight: .semibold)
+        let button: CustomButton = UIButtonBuilder(type: .custom)
+            .build()
+        
+        XCTAssertEqual(button.titleLabel?.font, font)
+    }
+}
+
+// MARK: - Custom UIButton
+class CustomButton: UIButton {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+        titleLabel?.font = .systemFont(ofSize: 12, weight: .semibold)
+        layer.cornerRadius = 8
+        clipsToBounds = true
     }
 }
