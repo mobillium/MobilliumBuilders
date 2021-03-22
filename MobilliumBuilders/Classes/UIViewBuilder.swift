@@ -15,73 +15,97 @@ public class UIViewBuilder<T: UIView> {
     
     @discardableResult
     public func backgroundColor(_ backgroundColor: UIColor) -> Self {
-        view.backgroundColor = backgroundColor
+        self.view.backgroundColor = backgroundColor
         return self
     }
     
     @discardableResult
     public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
-        view.layer.cornerRadius = cornerRadius
+        self.view.layer.cornerRadius = cornerRadius
         return self
     }
     
     @discardableResult
     public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
-        view.clipsToBounds = clipsToBounds
+        self.view.clipsToBounds = clipsToBounds
         return self
     }
     
     @discardableResult
     public func masksToBounds(_ masksToBounds: Bool) -> Self {
-        view.layer.masksToBounds = masksToBounds
+        self.view.layer.masksToBounds = masksToBounds
         return self
     }
     
     @discardableResult
     public func borderColor(_ borderColor: CGColor) -> Self {
-        view.layer.borderColor = borderColor
+        self.view.layer.borderColor = borderColor
         return self
     }
     
     @discardableResult
     public func borderWidth(_ borderWidth: CGFloat) -> Self {
-        view.layer.borderWidth = borderWidth
+        self.view.layer.borderWidth = borderWidth
         return self
     }
     
     @discardableResult
     public func shadowColor(_ shadowColor: CGColor) -> Self {
-        view.layer.shadowColor = shadowColor
+        self.view.layer.shadowColor = shadowColor
         return self
     }
     
     @discardableResult
     public func shadowOffset(_ shadowOffset: CGSize) -> Self {
-        view.layer.shadowOffset = shadowOffset
+        self.view.layer.shadowOffset = shadowOffset
         return self
     }
     
     @discardableResult
     public func shadowRadius(_ shadowRadius: CGFloat) -> Self {
-        view.layer.shadowRadius = shadowRadius
+        self.view.layer.shadowRadius = shadowRadius
         return self
     }
     
     @discardableResult
     public func shadowOpacity(_ shadowOpacity: Float) -> Self {
-        view.layer.shadowOpacity = shadowOpacity
+        self.view.layer.shadowOpacity = shadowOpacity
         return self
     }
     
     @discardableResult
     public func alpha(_ alpha: CGFloat) -> Self {
-        view.alpha = alpha
+        self.view.alpha = alpha
         return self
     }
     
     @discardableResult
     public func isOpaque(_ isOpaque: Bool) -> Self {
-        view.isOpaque = isOpaque
+        self.view.isOpaque = isOpaque
+        return self
+    }
+    
+    @discardableResult
+    public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+        self.view.isUserInteractionEnabled = isUserInteractionEnabled
+        return self
+    }
+
+    @discardableResult
+    public func isHidden(_ isHidden: Bool) -> Self {
+        self.view.isHidden = isHidden
+        return self
+    }
+
+    @discardableResult
+    public func isAccessibilityElement(_ isAccessibilityElement: Bool) -> Self {
+        self.view.isAccessibilityElement = isAccessibilityElement
+        return self
+    }
+
+    @discardableResult
+    public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
+        self.view.accessibilityIdentifier = accessibilityIdentifier
         return self
     }
     

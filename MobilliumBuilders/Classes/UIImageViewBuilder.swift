@@ -15,46 +15,70 @@ public class UIImageViewBuilder<T: UIImageView> {
     
     @discardableResult
     public func image(_ image: UIImage) -> Self {
-        imageView.image = image
+        self.imageView.image = image
         return self
     }
     
     @discardableResult
     public func backgroundColor(_ backgroundColor: UIColor) -> Self {
-        imageView.backgroundColor = backgroundColor
+        self.imageView.backgroundColor = backgroundColor
         return self
     }
     
     @discardableResult
     public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
-        imageView.layer.cornerRadius = cornerRadius
+        self.imageView.layer.cornerRadius = cornerRadius
         return self
     }
     
     @discardableResult
     public func tintColor(_ tintColor: UIColor) -> Self {
-        imageView.tintColor = tintColor
+        self.imageView.tintColor = tintColor
         return self
     }
     
     @discardableResult
     public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
-        imageView.clipsToBounds = clipsToBounds
+        self.imageView.clipsToBounds = clipsToBounds
         return self
     }
     
     @discardableResult
     public func masksToBounds(_ masksToBounds: Bool) -> Self {
-        imageView.layer.masksToBounds = masksToBounds
+        self.imageView.layer.masksToBounds = masksToBounds
         return self
     }
     
     @discardableResult
     public func contentMode(_ contentMode: UIView.ContentMode) -> Self {
-        imageView.contentMode = contentMode
+        self.imageView.contentMode = contentMode
         return self
     }
 
+    @discardableResult
+    public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+        self.imageView.isUserInteractionEnabled = isUserInteractionEnabled
+        return self
+    }
+
+    @discardableResult
+    public func isHidden(_ isHidden: Bool) -> Self {
+        self.imageView.isHidden = isHidden
+        return self
+    }
+
+    @discardableResult
+    public func isAccessibilityElement(_ isAccessibilityElement: Bool) -> Self {
+        self.imageView.isAccessibilityElement = isAccessibilityElement
+        return self
+    }
+
+    @discardableResult
+    public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
+        self.imageView.accessibilityIdentifier = accessibilityIdentifier
+        return self
+    }
+    
     public func build() -> T {
         return imageView
     }

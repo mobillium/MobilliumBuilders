@@ -183,4 +183,65 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertEqual(button.layer.shadowOpacity, shadowOpacity)
     }
+    
+    func testIsUserInteractionEnabled() {
+        let button = UIButtonBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(button.isUserInteractionEnabled)
+    }
+    
+    func testIsHidden() {
+        let button = UIButtonBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(button.isHidden)
+    }
+    
+    func testIsAccessibilityElement() {
+        let button = UIButtonBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(button.isAccessibilityElement)
+    }
+    
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "button"
+        let button = UIButtonBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(button.accessibilityIdentifier, accessibilityIdentifier)
+    }
+    
+    func testCustomButton() {
+        let font = UIFont.systemFont(ofSize: 12, weight: .semibold)
+        let button: CustomButton = UIButtonBuilder(type: .custom)
+            .build()
+        
+        XCTAssertEqual(button.titleLabel?.font, font)
+    }
+}
+
+// MARK: - Custom UIButton
+class CustomButton: UIButton {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+        titleLabel?.font = .systemFont(ofSize: 12, weight: .semibold)
+        layer.cornerRadius = 8
+        clipsToBounds = true
+    }
 }

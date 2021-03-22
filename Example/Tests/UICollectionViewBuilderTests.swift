@@ -132,4 +132,37 @@ class UICollectionViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(collectionView.keyboardDismissMode, keyboardDismissMode)
     }
+    
+    func testIsUserInteractionEnabled() {
+        let collectionView = UICollectionViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(collectionView.isUserInteractionEnabled)
+    }
+
+    func testIsHidden() {
+        let collectionView = UICollectionViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(collectionView.isHidden)
+    }
+
+    func testIsAccessibilityElement() {
+        let collectionView = UICollectionViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(collectionView.isAccessibilityElement)
+    }
+
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "collectionView"
+        let collectionView = UICollectionViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(collectionView.accessibilityIdentifier, accessibilityIdentifier)
+    }
 }
