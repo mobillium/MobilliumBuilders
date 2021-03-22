@@ -209,7 +209,7 @@ class UIButtonBuilderTests: XCTestCase {
     }
     
     func testAccessibilityIdentifier() {
-        let accessibilityIdentifier = "stackView"
+        let accessibilityIdentifier = "button"
         let button = UIButtonBuilder()
             .accessibilityIdentifier(accessibilityIdentifier)
             .build()
