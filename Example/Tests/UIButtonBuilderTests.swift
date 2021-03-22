@@ -183,4 +183,37 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertEqual(button.layer.shadowOpacity, shadowOpacity)
     }
+    
+    func testIsUserInteractionEnabled() {
+        let button = UIButtonBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(button.isUserInteractionEnabled)
+    }
+
+    func testIsHidden() {
+        let button = UIButtonBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(button.isHidden)
+    }
+
+    func testIsAccessibilityElement() {
+        let button = UIButtonBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(button.isAccessibilityElement)
+    }
+
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "stackView"
+        let button = UIButtonBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(button.accessibilityIdentifier, accessibilityIdentifier)
+    }
 }
