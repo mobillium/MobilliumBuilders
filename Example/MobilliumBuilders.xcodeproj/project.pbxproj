@@ -14,6 +14,7 @@
 		A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */; };
 		A253CC7A26048AF600E55164 /* UITableViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC7926048AF600E55164 /* UITableViewBuilderTests.swift */; };
 		A253CC882604A82700E55164 /* UICollectionViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC872604A82700E55164 /* UICollectionViewBuilderTests.swift */; };
+		A253CC9E2604C83A00E55164 /* UIPageControlBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */; };
 		A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */; };
 		A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */; };
 		A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */; };
@@ -36,6 +37,7 @@
 		A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilderTests.swift; sourceTree = "<group>"; };
 		A253CC7926048AF600E55164 /* UITableViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewBuilderTests.swift; sourceTree = "<group>"; };
 		A253CC872604A82700E55164 /* UICollectionViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewBuilderTests.swift; sourceTree = "<group>"; };
+		A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilderTests.swift; sourceTree = "<group>"; };
 		A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilderTests.swift; sourceTree = "<group>"; };
 		A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonBuilderTests.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */,
 				A253CC7926048AF600E55164 /* UITableViewBuilderTests.swift */,
 				A253CC872604A82700E55164 /* UICollectionViewBuilderTests.swift */,
+				A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */,
 				A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -265,6 +268,7 @@
 				A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */,
 				A2BE602A26022D5D00DAA587 /* UILabelBuilderTests.swift in Sources */,
 				A22847BD26032F5700C790FE /* UIViewBuilderTests.swift in Sources */,
+				A253CC9E2604C83A00E55164 /* UIPageControlBuilderTests.swift in Sources */,
 				A253CC7A26048AF600E55164 /* UITableViewBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

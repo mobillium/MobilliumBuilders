@@ -16,6 +16,7 @@
 		A22848132603583700C790FE /* UITextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22848122603583700C790FE /* UITextFieldBuilder.swift */; };
 		A253CC7626047C8300E55164 /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC7526047C8300E55164 /* UITableViewBuilder.swift */; };
 		A253CC802604986000E55164 /* UICollectionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC7F2604986000E55164 /* UICollectionViewBuilder.swift */; };
+		A253CC9A2604B75100E55164 /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC992604B75100E55164 /* UIPageControlBuilder.swift */; };
 		A253CCB62604D29A00E55164 /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */; };
 		A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */; };
 		A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */; };
@@ -55,6 +56,7 @@
 		A22848122603583700C790FE /* UITextFieldBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilder.swift; sourceTree = "<group>"; };
 		A253CC7526047C8300E55164 /* UITableViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewBuilder.swift; sourceTree = "<group>"; };
 		A253CC7F2604986000E55164 /* UICollectionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewBuilder.swift; sourceTree = "<group>"; };
+		A253CC992604B75100E55164 /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilder.swift; sourceTree = "<group>"; };
 		A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilder.swift; sourceTree = "<group>"; };
 		A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				A22848122603583700C790FE /* UITextFieldBuilder.swift */,
 				A253CC7526047C8300E55164 /* UITableViewBuilder.swift */,
 				A253CC7F2604986000E55164 /* UICollectionViewBuilder.swift */,
+				A253CC992604B75100E55164 /* UIPageControlBuilder.swift */,
 				A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */,
 			);
 			path = Classes;
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A253CC802604986000E55164 /* UICollectionViewBuilder.swift in Sources */,
+				A253CC9A2604B75100E55164 /* UIPageControlBuilder.swift in Sources */,
 				A2BE60262602291D00DAA587 /* UILabelBuilder.swift in Sources */,
 				7A00777426013A200085E756 /* AttributedStringDictionaryBuilder.swift in Sources */,
 				A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */,
