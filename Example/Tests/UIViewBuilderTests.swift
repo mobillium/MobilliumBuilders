@@ -10,7 +10,7 @@ import XCTest
 import MobilliumBuilders
 
 class UIViewBuilderTests: XCTestCase {
-
+    
     func testBackgroundColor() {
         let backgroundColor = UIColor.red
         let view = UIViewBuilder()
@@ -115,7 +115,7 @@ class UIViewBuilderTests: XCTestCase {
         
         XCTAssertFalse(view.isOpaque)
     }
-
+    
     func testIsUserInteractionEnabled() {
         let view = UIViewBuilder()
             .isUserInteractionEnabled(true)
@@ -123,7 +123,7 @@ class UIViewBuilderTests: XCTestCase {
         
         XCTAssertTrue(view.isUserInteractionEnabled)
     }
-
+    
     func testIsHidden() {
         let view = UIViewBuilder()
             .isHidden(false)
@@ -131,7 +131,7 @@ class UIViewBuilderTests: XCTestCase {
         
         XCTAssertFalse(view.isHidden)
     }
-
+    
     func testIsAccessibilityElement() {
         let view = UIViewBuilder()
             .isAccessibilityElement(true)
@@ -139,7 +139,7 @@ class UIViewBuilderTests: XCTestCase {
         
         XCTAssertTrue(view.isAccessibilityElement)
     }
-
+    
     func testAccessibilityIdentifier() {
         let accessibilityIdentifier = "view"
         let view = UIViewBuilder()

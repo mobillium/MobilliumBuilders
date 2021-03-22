@@ -121,7 +121,7 @@ class UILabelBuilderTests: XCTestCase {
         
         XCTAssertFalse(label.isHidden)
     }
-
+    
     func testIsAccessibilityElement() {
         let label = UILabelBuilder()
             .isAccessibilityElement(true)
@@ -129,7 +129,7 @@ class UILabelBuilderTests: XCTestCase {
         
         XCTAssertTrue(label.isAccessibilityElement)
     }
-
+    
     func testAccessibilityIdentifier() {
         let accessibilityIdentifier = "label"
         let label = UILabelBuilder()
@@ -138,5 +138,5 @@ class UILabelBuilderTests: XCTestCase {
         
         XCTAssertEqual(label.accessibilityIdentifier, accessibilityIdentifier)
     }
-
+    
 }
