@@ -60,5 +60,38 @@ class UIStackViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(stackView.backgroundColor, backgroundColor)
     }
+    
+    func testIsUserInteractionEnabled() {
+        let stackView = UIStackViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(stackView.isUserInteractionEnabled)
+    }
+
+    func testIsHidden() {
+        let stackView = UIStackViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(stackView.isHidden)
+    }
+
+    func testIsAccessibilityElement() {
+        let stackView = UIStackViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(stackView.isAccessibilityElement)
+    }
+
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "stackView"
+        let stackView = UIStackViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(stackView.accessibilityIdentifier, accessibilityIdentifier)
+    }
 
 }

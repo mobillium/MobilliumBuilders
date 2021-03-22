@@ -43,6 +43,30 @@ public class UIStackViewBuilder<T: UIStackView> {
         return self
     }
     
+    @discardableResult
+    public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+        self.stackView.isUserInteractionEnabled = isUserInteractionEnabled
+        return self
+    }
+
+    @discardableResult
+    public func isHidden(_ isHidden: Bool) -> Self {
+        self.stackView.isHidden = isHidden
+        return self
+    }
+
+    @discardableResult
+    public func isAccessibilityElement(_ isAccessibilityElement: Bool) -> Self {
+        self.stackView.isAccessibilityElement = isAccessibilityElement
+        return self
+    }
+
+    @discardableResult
+    public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
+        self.stackView.accessibilityIdentifier = accessibilityIdentifier
+        return self
+    }
+    
     public func build() -> T {
         return stackView
     }
