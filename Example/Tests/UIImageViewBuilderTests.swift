@@ -71,4 +71,38 @@ class UIImageViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(imageView.contentMode, contentMode)
     }
+    
+    func testIsUserInteractionEnabled() {
+        let imageView = UIImageViewBuilder()
+            .isUserInteractionEnabled(true)
+            .build()
+        
+        XCTAssertTrue(imageView.isUserInteractionEnabled)
+    }
+
+    func testIsHidden() {
+        let imageView = UIImageViewBuilder()
+            .isHidden(false)
+            .build()
+        
+        XCTAssertFalse(imageView.isHidden)
+    }
+
+    func testIsAccessibilityElement() {
+        let imageView = UIImageViewBuilder()
+            .isAccessibilityElement(true)
+            .build()
+        
+        XCTAssertTrue(imageView.isAccessibilityElement)
+    }
+
+    func testAccessibilityIdentifier() {
+        let accessibilityIdentifier = "imageView"
+        let imageView = UIImageViewBuilder()
+            .accessibilityIdentifier(accessibilityIdentifier)
+            .build()
+        
+        XCTAssertEqual(imageView.accessibilityIdentifier, accessibilityIdentifier)
+    }
+
 }
