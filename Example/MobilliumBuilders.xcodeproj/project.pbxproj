@@ -22,6 +22,7 @@
 		A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */; };
 		A2BE602A26022D5D00DAA587 /* UILabelBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE602926022D5D00DAA587 /* UILabelBuilderTests.swift */; };
 		A2D225152608BFF600E3F8B5 /* UISwitchBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */; };
+		A2D225472608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE602926022D5D00DAA587 /* UILabelBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelBuilderTests.swift; sourceTree = "<group>"; };
 		A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchBuilderTests.swift; sourceTree = "<group>"; };
+		A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilderTests.swift; sourceTree = "<group>"; };
 		AC7777DF2E3663D0B79A3064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */,
 				A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */,
 				A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */,
+				A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -265,6 +268,7 @@
 				A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */,
 				A22847CC2603482900C790FE /* UIImageViewBuilderTests.swift in Sources */,
 				A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */,
+				A2D225472608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift in Sources */,
 				7A00777826013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift in Sources */,
 				A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */,
 				A253CC882604A82700E55164 /* UICollectionViewBuilderTests.swift in Sources */,
