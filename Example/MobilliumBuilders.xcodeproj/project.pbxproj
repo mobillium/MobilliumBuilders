@@ -17,6 +17,7 @@
 		A253CC9E2604C83A00E55164 /* UIPageControlBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */; };
 		A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */; };
 		A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */; };
+		A2ABE3012609C6BE00797A72 /* UIStepperBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */; };
 		A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */; };
 		A2BE5FE62601FC9B00DAA587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */; };
 		A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */; };
@@ -41,6 +42,7 @@
 		A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilderTests.swift; sourceTree = "<group>"; };
 		A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilderTests.swift; sourceTree = "<group>"; };
 		A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilderTests.swift; sourceTree = "<group>"; };
+		A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilderTests.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */,
 				A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */,
 				A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */,
+				A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */,
+				A2ABE3012609C6BE00797A72 /* UIStepperBuilderTests.swift in Sources */,
 				A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */,
 				A22847CC2603482900C790FE /* UIImageViewBuilderTests.swift in Sources */,
 				A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */,

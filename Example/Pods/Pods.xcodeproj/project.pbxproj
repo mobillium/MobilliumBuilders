@@ -19,6 +19,7 @@
 		A253CC9A2604B75100E55164 /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC992604B75100E55164 /* UIPageControlBuilder.swift */; };
 		A253CCB62604D29A00E55164 /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */; };
 		A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */; };
+		A2ABE2FD2609C21200797A72 /* UIStepperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */; };
 		A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */; };
 		A2BE5FFA2602169300DAA587 /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */; };
 		A2BE60262602291D00DAA587 /* UILabelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60252602291D00DAA587 /* UILabelBuilder.swift */; };
@@ -60,6 +61,7 @@
 		A253CC992604B75100E55164 /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilder.swift; sourceTree = "<group>"; };
 		A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilder.swift; sourceTree = "<group>"; };
 		A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
+		A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilder.swift; sourceTree = "<group>"; };
 		A2BE60252602291D00DAA587 /* UILabelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelBuilder.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				A253CC992604B75100E55164 /* UIPageControlBuilder.swift */,
 				A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */,
 				A2D225102608BD9700E3F8B5 /* UISwitchBuilder.swift */,
+				A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				A22847B926032A6700C790FE /* UIViewBuilder.swift in Sources */,
 				A22848132603583700C790FE /* UITextFieldBuilder.swift in Sources */,
 				A253CCB62604D29A00E55164 /* UITextViewBuilder.swift in Sources */,
+				A2ABE2FD2609C21200797A72 /* UIStepperBuilder.swift in Sources */,
 				A2D225112608BD9700E3F8B5 /* UISwitchBuilder.swift in Sources */,
 				81CE4F27F06C29323A7C5119B026F7F0 /* MobilliumBuilders-dummy.m in Sources */,
 				A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */,
