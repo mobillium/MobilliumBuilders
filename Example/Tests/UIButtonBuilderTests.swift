@@ -73,6 +73,22 @@ class UIButtonBuilderTests: XCTestCase {
         XCTAssertEqual(button.layer.cornerRadius, cornerRadius)
     }
     
+    func testClipsToBounds() {
+        let button = UIButtonBuilder()
+            .clipsToBounds(true)
+            .build()
+        
+        XCTAssertTrue(button.clipsToBounds)
+    }
+    
+    func testMasksToBounds() {
+        let button = UIButtonBuilder()
+            .masksToBounds(true)
+            .build()
+        
+        XCTAssertTrue(button.layer.masksToBounds)
+    }
+    
     func testBorderColor() {
         let borderColor = UIColor.red.cgColor
         let button = UIButtonBuilder()

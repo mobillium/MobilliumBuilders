@@ -52,6 +52,18 @@ public class UIButtonBuilder<T: UIButton> {
     }
     
     @discardableResult
+    public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
+        self.button.clipsToBounds = clipsToBounds
+        return self
+    }
+    
+    @discardableResult
+    public func masksToBounds(_ masksToBounds: Bool) -> Self {
+        self.button.layer.masksToBounds = masksToBounds
+        return self
+    }
+    
+    @discardableResult
     public func borderColor(_ borderColor: CGColor) -> Self {
         self.button.layer.borderColor = borderColor
         return self
