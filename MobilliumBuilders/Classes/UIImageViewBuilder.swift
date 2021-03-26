@@ -54,6 +54,42 @@ public class UIImageViewBuilder<T: UIImageView> {
         self.imageView.contentMode = contentMode
         return self
     }
+    
+    @discardableResult
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        self.imageView.layer.borderColor = borderColor
+        return self
+    }
+    
+    @discardableResult
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        self.imageView.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func shadowRadius(_ shadowRadius: CGFloat) -> Self {
+        self.imageView.layer.shadowRadius = shadowRadius
+        return self
+    }
+    
+    @discardableResult
+    public func shadowOpacity(_ shadowOpacity: Float) -> Self {
+        self.imageView.layer.shadowOpacity = shadowOpacity
+        return self
+    }
+    
+    @discardableResult
+    public func shadowColor(_ shadowColor: CGColor) -> Self {
+        self.imageView.layer.shadowColor = shadowColor
+        return self
+    }
+    
+    @discardableResult
+    public func shadowOffset(_ shadowOffset: CGSize) -> Self {
+        self.imageView.layer.shadowOffset = shadowOffset
+        return self
+    }
 
     @discardableResult
     public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
