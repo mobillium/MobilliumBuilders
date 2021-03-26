@@ -56,6 +56,54 @@ public class UILabelBuilder<T: UILabel> {
     }
     
     @discardableResult
+    public func backgroundColor(_ backgroundColor: UIColor) -> Self {
+        self.label.backgroundColor = backgroundColor
+        return self
+    }
+    
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.label.layer.cornerRadius = cornerRadius
+        return self
+    }
+    
+    @discardableResult
+    public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
+        self.label.clipsToBounds = clipsToBounds
+        return self
+    }
+    
+    @discardableResult
+    public func masksToBounds(_ masksToBounds: Bool) -> Self {
+        self.label.layer.masksToBounds = masksToBounds
+        return self
+    }
+    
+    @discardableResult
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        self.label.layer.borderColor = borderColor
+        return self
+    }
+    
+    @discardableResult
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        self.label.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func shadowRadius(_ shadowRadius: CGFloat) -> Self {
+        self.label.layer.shadowRadius = shadowRadius
+        return self
+    }
+    
+    @discardableResult
+    public func shadowOpacity(_ shadowOpacity: Float) -> Self {
+        self.label.layer.shadowOpacity = shadowOpacity
+        return self
+    }
+    
+    @discardableResult
     public func shadowColor(_ shadowColor: UIColor) -> Self {
         self.label.shadowColor = shadowColor
         return self

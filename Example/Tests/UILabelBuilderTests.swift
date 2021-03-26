@@ -79,6 +79,76 @@ class UILabelBuilderTests: XCTestCase {
         XCTAssertTrue(label.adjustsFontSizeToFitWidth)
     }
     
+    func testBackgroundColor() {
+        let backgroundColor = UIColor.red
+        let label = UILabelBuilder()
+            .backgroundColor(backgroundColor)
+            .build()
+        
+        XCTAssertEqual(label.backgroundColor, backgroundColor)
+    }
+    
+    func testCornerRadius() {
+        let cornerRadius: CGFloat = 10
+        let label = UILabelBuilder()
+            .cornerRadius(cornerRadius)
+            .build()
+        
+        XCTAssertEqual(label.layer.cornerRadius, cornerRadius)
+    }
+    
+    func testClipsToBounds() {
+        let label = UILabelBuilder()
+            .clipsToBounds(true)
+            .build()
+        
+        XCTAssertTrue(label.clipsToBounds)
+    }
+    
+    func testMasksToBounds() {
+        let label = UILabelBuilder()
+            .masksToBounds(true)
+            .build()
+        
+        XCTAssertTrue(label.layer.masksToBounds)
+    }
+    
+    func testBorderColor() {
+        let borderColor = UIColor.red.cgColor
+        let label = UILabelBuilder()
+            .borderColor(borderColor)
+            .build()
+        
+        XCTAssertEqual(label.layer.borderColor, borderColor)
+    }
+    
+    func testBorderWidth() {
+        let borderWidth: CGFloat = 3
+        let label = UILabelBuilder()
+            .borderWidth(borderWidth)
+            .build()
+        
+        XCTAssertEqual(label.layer.borderWidth, borderWidth)
+    }
+    
+    func testShadowRadius() {
+        let shadowRadius: CGFloat = 8
+        let label = UILabelBuilder()
+            .shadowRadius(shadowRadius)
+            .build()
+        
+        XCTAssertEqual(label.layer.shadowRadius, shadowRadius)
+    }
+    
+    func testShadowOpacity() {
+        let shadowOpacity: Float = 0.4
+        let label = UILabelBuilder()
+            .shadowOpacity(shadowOpacity)
+            .build()
+        
+        XCTAssertEqual(label.layer.shadowOpacity, shadowOpacity)
+    }
+    
     func testShadowColor() {
         let shadowColor = UIColor.gray
         let label = UILabelBuilder()

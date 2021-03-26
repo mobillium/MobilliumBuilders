@@ -31,6 +31,15 @@ MobilliumBuilders comes with these builders.
 - UIStackViewBuilder
 - UITextFieldBuilder
 - UIViewBuilder
+- UITableViewBuilder
+- UICollectionViewBuilder
+- UITextViewBuilder
+- UIPageControlBuilder
+- UIProgressViewBuilder
+- UISwitchBuilder
+- UISliderBuilder
+- UIStepperBuilder
+
 
 Example usage:
 ```swift
