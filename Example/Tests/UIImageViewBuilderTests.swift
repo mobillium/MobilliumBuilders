@@ -72,6 +72,60 @@ class UIImageViewBuilderTests: XCTestCase {
         XCTAssertEqual(imageView.contentMode, contentMode)
     }
     
+    func testBorderColor() {
+        let borderColor = UIColor.red.cgColor
+        let imageView = UIImageViewBuilder()
+            .borderColor(borderColor)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.borderColor, borderColor)
+    }
+    
+    func testBorderWidth() {
+        let borderWidth: CGFloat = 3
+        let imageView = UIImageViewBuilder()
+            .borderWidth(borderWidth)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.borderWidth, borderWidth)
+    }
+    
+    func testShadowColor() {
+        let shadowColor = UIColor.systemPink.cgColor
+        let imageView = UIImageViewBuilder()
+            .shadowColor(shadowColor)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.shadowColor, shadowColor)
+    }
+    
+    func testShadowOffset() {
+        let shadowOffset = CGSize(width: 3, height: 3)
+        let imageView = UIImageViewBuilder()
+            .shadowOffset(shadowOffset)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.shadowOffset, shadowOffset)
+    }
+    
+    func testShadowRadius() {
+        let shadowRadius: CGFloat = 8
+        let imageView = UIImageViewBuilder()
+            .shadowRadius(shadowRadius)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.shadowRadius, shadowRadius)
+    }
+    
+    func testShadowOpacity() {
+        let shadowOpacity: Float = 0.4
+        let imageView = UIImageViewBuilder()
+            .shadowOpacity(shadowOpacity)
+            .build()
+        
+        XCTAssertEqual(imageView.layer.shadowOpacity, shadowOpacity)
+    }
+    
     func testIsUserInteractionEnabled() {
         let imageView = UIImageViewBuilder()
             .isUserInteractionEnabled(true)
