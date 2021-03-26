@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MobilliumBuilders'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Builders classes'
 
   s.homepage         = 'https://github.com/mobillium/MobilliumBuilders'
