@@ -9,7 +9,7 @@ import UIKit
 
 public class UISliderBuilder<T: UISlider> {
     
-    private let slider = T()
+    public let slider = T()
     
     public init() {}
     

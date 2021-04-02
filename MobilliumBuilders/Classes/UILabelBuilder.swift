@@ -9,7 +9,7 @@ import UIKit
 
 public class UILabelBuilder<T: UILabel> {
  
-    private let label = T()
+    public let label = T()
     
     public init() {}
     

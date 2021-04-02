@@ -9,7 +9,7 @@ import UIKit
 
 public class UIProgressViewBuilder<T: UIProgressView> {
     
-    private let progressView = T()
+    public let progressView = T()
     
     public init() {}
     

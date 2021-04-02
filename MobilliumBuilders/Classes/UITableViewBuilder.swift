@@ -9,7 +9,7 @@ import UIKit
 
 public class UITableViewBuilder<T: UITableView> {
     
-    private let tableView = T()
+    public let tableView = T()
     
     public init() {}
     

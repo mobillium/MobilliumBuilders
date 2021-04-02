@@ -9,7 +9,7 @@ import UIKit
 
 public class UICollectionViewBuilder<T: UICollectionView> {
     
-    private let collectionView: T
+    public let collectionView: T
     
     public init(collectionViewLayout layout: UICollectionViewLayout = UICollectionViewFlowLayout()) {
         self.collectionView = T(frame: .zero, collectionViewLayout: layout)
