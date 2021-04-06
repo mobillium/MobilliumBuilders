@@ -5,12 +5,11 @@
 //  Created by Murat Celebi on 18.03.2021.
 //
 
-
 import UIKit
 
 public class UITextFieldBuilder<T: UITextField> {
     
-    private let textField = T()
+    public let textField = T()
     
     public init() {}
     

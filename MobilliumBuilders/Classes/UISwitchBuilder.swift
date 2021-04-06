@@ -9,7 +9,7 @@ import UIKit
 
 public class UISwitchBuilder<T: UISwitch> {
     
-    private let uiSwitch = T()
+    public let uiSwitch = T()
     
     public init() {}
     

@@ -9,7 +9,7 @@ import UIKit
 
 public class UIScrollViewBuilder<T: UIScrollView> {
     
-    private let scrollView = T()
+    public let scrollView = T()
     
     public init() {}
        

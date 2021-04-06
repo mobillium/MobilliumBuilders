@@ -9,7 +9,7 @@ import UIKit
 
 public class UIViewBuilder<T: UIView> {
     
-    private let view = T()
+    public let view = T()
     
     public init() {}
     

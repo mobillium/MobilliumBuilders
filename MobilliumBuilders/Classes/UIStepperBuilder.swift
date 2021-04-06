@@ -9,7 +9,7 @@ import UIKit
 
 public class UIStepperBuilder<T: UIStepper> {
     
-    private let stepper = T()
+    public let stepper = T()
     
     public init() {}
     

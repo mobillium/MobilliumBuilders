@@ -9,7 +9,7 @@ import UIKit
 
 public class UIImageViewBuilder<T: UIImageView> {
     
-    private let imageView = T()
+    public let imageView = T()
     
     public init() {}
     

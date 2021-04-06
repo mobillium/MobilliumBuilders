@@ -9,7 +9,7 @@ import UIKit
 
 public class UIPageControlBuilder<T: UIPageControl> {
     
-    private let pageControl = T()
+    public let pageControl = T()
     
     public init() {}
     

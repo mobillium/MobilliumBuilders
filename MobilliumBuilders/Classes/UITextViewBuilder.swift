@@ -9,7 +9,7 @@ import UIKit
 
 public class UITextViewBuilder<T: UITextView> {
     
-    private let textView = T()
+    public let textView = T()
 
     public init() {}
     

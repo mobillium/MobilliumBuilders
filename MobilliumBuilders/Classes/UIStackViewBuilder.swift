@@ -9,7 +9,7 @@ import UIKit
 
 public class UIStackViewBuilder<T: UIStackView> {
     
-    private let stackView = T()
+    public let stackView = T()
     
     public init() {}
     
