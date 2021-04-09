@@ -126,6 +126,12 @@ public class UICollectionViewBuilder<T: UICollectionView> {
         self.collectionView.accessibilityIdentifier = accessibilityIdentifier
         return self
     }
+
+    @discardableResult
+    public func registerCell<C: UICollectionViewCell>(_ cellType: C.Type, reuseIdentifier: String) -> Self {
+        self.collectionView.register(cellType, forCellWithReuseIdentifier: reuseIdentifier)
+        return self
+    }
     
     public func build() -> T {
         return collectionView

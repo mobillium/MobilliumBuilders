@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## MobilliumBuilders
 
-Copyright (c) 2021 Mehmet Salih Aslan <aslanmsalih@gmail.com>
+Copyright (c) 2021 Mobillium
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
