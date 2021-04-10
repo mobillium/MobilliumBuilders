@@ -160,7 +160,7 @@ class UITextFieldBuilderTests: XCTestCase {
     }
     
     func testCornerRadius() {
-        let cornerRadius = 30
+        let cornerRadius: CGFloat = 8
         let textField = UITextFieldBuilder()
             .cornerRadius(cornerRadius)
             .build()
