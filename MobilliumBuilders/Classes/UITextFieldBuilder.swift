@@ -68,8 +68,8 @@ public class UITextFieldBuilder<T: UITextField> {
     }
     
     @discardableResult
-    public func borderColor(_ borderColor: UIColor) -> Self {
-        self.textField.layer.borderColor = borderColor.cgColor
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        self.textField.layer.borderColor = borderColor
         return self
     }
     
