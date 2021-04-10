@@ -62,6 +62,24 @@ public class UITextFieldBuilder<T: UITextField> {
     }
     
     @discardableResult
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        self.textField.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func borderColor(_ borderColor: UIColor) -> Self {
+        self.textField.layer.borderColor = borderColor.cgColor
+        return self
+    }
+    
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.textField.layer.cornerRadius = cornerRadius
+        return self
+    }
+    
+    @discardableResult
     public func leftView(_ view: UIView?, viewMode: UITextField.ViewMode) -> Self {
         self.textField.leftView = view
         self.textField.leftViewMode = viewMode
