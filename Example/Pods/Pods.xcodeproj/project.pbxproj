@@ -19,13 +19,14 @@
 		A253CC9A2604B75100E55164 /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC992604B75100E55164 /* UIPageControlBuilder.swift */; };
 		A253CCB62604D29A00E55164 /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */; };
 		A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */; };
+		A28E1FC126242969000EAA52 /* UIBarButtonItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E1FC026242969000EAA52 /* UIBarButtonItemBuilder.swift */; };
 		A2ABE2FD2609C21200797A72 /* UIStepperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */; };
 		A2BE5FCA2601F08F00DAA587 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */; };
 		A2BE5FFA2602169300DAA587 /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */; };
 		A2BE60262602291D00DAA587 /* UILabelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60252602291D00DAA587 /* UILabelBuilder.swift */; };
 		A2D225112608BD9700E3F8B5 /* UISwitchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225102608BD9700E3F8B5 /* UISwitchBuilder.swift */; };
-		A2D225432608D4B000E3F8B5 /* UIProgressViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225422608D4B000E3F8B5 /* UIProgressViewBuilder.swift */; };
 		A2D225302608C8D700E3F8B5 /* UISliderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D2252F2608C8D700E3F8B5 /* UISliderBuilder.swift */; };
+		A2D225432608D4B000E3F8B5 /* UIProgressViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225422608D4B000E3F8B5 /* UIProgressViewBuilder.swift */; };
 		AFC05D3612F2312F128A648BEC2574E9 /* MobilliumBuilders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A95A70857DF560FB6D5E107C10A5215 /* MobilliumBuilders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC9E6C0F21AFF9C71FDD64AD013B524F /* Pods-MobilliumBuilders_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8457A0BA4F2B3A757D32D733CBC356E7 /* Pods-MobilliumBuilders_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAE4C8BC3E1648AD5B32DF743F8650D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -63,13 +64,14 @@
 		A253CC992604B75100E55164 /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilder.swift; sourceTree = "<group>"; };
 		A253CCB52604D29A00E55164 /* UITextViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilder.swift; sourceTree = "<group>"; };
 		A27B27BB2601E7F0003C16F0 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilder.swift; sourceTree = "<group>"; };
+		A28E1FC026242969000EAA52 /* UIBarButtonItemBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemBuilder.swift; sourceTree = "<group>"; };
 		A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FC92601F08F00DAA587 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBuilder.swift; sourceTree = "<group>"; };
 		A2BE5FF92602169300DAA587 /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilder.swift; sourceTree = "<group>"; };
 		A2BE60252602291D00DAA587 /* UILabelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelBuilder.swift; sourceTree = "<group>"; };
 		A2D225102608BD9700E3F8B5 /* UISwitchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchBuilder.swift; sourceTree = "<group>"; };
-		A2D225422608D4B000E3F8B5 /* UIProgressViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilder.swift; sourceTree = "<group>"; };
 		A2D2252F2608C8D700E3F8B5 /* UISliderBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderBuilder.swift; sourceTree = "<group>"; };
+		A2D225422608D4B000E3F8B5 /* UIProgressViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilder.swift; sourceTree = "<group>"; };
 		AFF7ADF29ACD1D87A6656BF67AEFB546 /* MobilliumBuilders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.release.xcconfig; sourceTree = "<group>"; };
 		B01C39835ED77306C397F456D552DF2A /* MobilliumBuilders-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobilliumBuilders-Info.plist"; sourceTree = "<group>"; };
 		B0B8CA4DF6FF003DE8CB34EFF9C3965B /* Pods-MobilliumBuilders_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobilliumBuilders_Tests.modulemap"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				A2D225422608D4B000E3F8B5 /* UIProgressViewBuilder.swift */,
 				A2D2252F2608C8D700E3F8B5 /* UISliderBuilder.swift */,
 				A2ABE2FC2609C21200797A72 /* UIStepperBuilder.swift */,
+				A28E1FC026242969000EAA52 /* UIBarButtonItemBuilder.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				7A00777426013A200085E756 /* AttributedStringDictionaryBuilder.swift in Sources */,
 				A27B27BC2601E7F0003C16F0 /* UIStackViewBuilder.swift in Sources */,
 				A253CC7626047C8300E55164 /* UITableViewBuilder.swift in Sources */,
+				A28E1FC126242969000EAA52 /* UIBarButtonItemBuilder.swift in Sources */,
 				A22847B926032A6700C790FE /* UIViewBuilder.swift in Sources */,
 				A2D225432608D4B000E3F8B5 /* UIProgressViewBuilder.swift in Sources */,
 				A22848132603583700C790FE /* UITextFieldBuilder.swift in Sources */,
