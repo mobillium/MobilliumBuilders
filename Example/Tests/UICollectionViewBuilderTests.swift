@@ -20,8 +20,19 @@ class UICollectionViewBuilderTests: XCTestCase {
         XCTAssertEqual(collectionView.backgroundColor, backgroundColor)
     }
 
-    func testScrollDirection() {
+    func testScrollDirectionVertical() {
         let scrollDirection = UICollectionView.ScrollDirection.vertical
+        let collectionView = UICollectionViewBuilder()
+            .scrollDirection(scrollDirection)
+            .build()
+
+        guard let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else { return }
+
+        XCTAssertEqual(layout.scrollDirection, scrollDirection)
+    }
+
+    func testScrollDirectionHorizontal() {
+        let scrollDirection = UICollectionView.ScrollDirection.horizontal
         let collectionView = UICollectionViewBuilder()
             .scrollDirection(scrollDirection)
             .build()

@@ -24,7 +24,7 @@ public class UICollectionViewBuilder<T: UICollectionView> {
     @discardableResult
     public func scrollDirection(_ scrollDirection: UICollectionView.ScrollDirection) -> Self {
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.scrollDirection = .vertical
+            layout.scrollDirection = scrollDirection
         }
         return self
     }
