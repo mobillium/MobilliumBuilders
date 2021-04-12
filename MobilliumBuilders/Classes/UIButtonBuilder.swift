@@ -9,7 +9,7 @@ import UIKit
 
 public class UIButtonBuilder<T: UIButton> {
     
-    private let button: T
+    public let button: T
     
     public init(type: T.ButtonType = .system) {
         self.button = T(type: type)

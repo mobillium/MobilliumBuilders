@@ -5,12 +5,11 @@
 //  Created by Murat Celebi on 18.03.2021.
 //
 
-
 import UIKit
 
 public class UITextFieldBuilder<T: UITextField> {
     
-    private let textField = T()
+    public let textField = T()
     
     public init() {}
     
@@ -59,6 +58,24 @@ public class UITextFieldBuilder<T: UITextField> {
     @discardableResult
     public func minimumFontSize(_ minimumFontSize: CGFloat) -> Self {
         self.textField.minimumFontSize = minimumFontSize
+        return self
+    }
+    
+    @discardableResult
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        self.textField.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        self.textField.layer.borderColor = borderColor
+        return self
+    }
+    
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.textField.layer.cornerRadius = cornerRadius
         return self
     }
     

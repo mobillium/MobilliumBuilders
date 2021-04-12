@@ -158,4 +158,31 @@ class UITextFieldBuilderTests: XCTestCase {
         
         XCTAssertEqual(textField.accessibilityIdentifier, accessibilityIdentifier)
     }
+    
+    func testCornerRadius() {
+        let cornerRadius: CGFloat = 8
+        let textField = UITextFieldBuilder()
+            .cornerRadius(cornerRadius)
+            .build()
+        
+        XCTAssertEqual(textField.layer.cornerRadius, cornerRadius)
+    }
+    
+    func testBorderWidth() {
+        let borderWidth: CGFloat = 3
+        let textField = UITextFieldBuilder()
+            .borderWidth(borderWidth)
+            .build()
+        
+        XCTAssertEqual(textField.layer.borderWidth, borderWidth)
+    }
+    
+    func testBorderColor() {
+        let borderColor = UIColor.red.cgColor
+        let textField = UITextFieldBuilder()
+            .borderColor(borderColor)
+            .build()
+        
+        XCTAssertEqual(textField.layer.borderColor, borderColor)
+    }
 }

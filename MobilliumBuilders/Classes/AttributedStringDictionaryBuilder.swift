@@ -10,7 +10,7 @@ import UIKit
 public class AttributedStringDictionaryBuilder {
     
     public typealias AttributedStringDictionary = [NSAttributedString.Key: Any]
-    private var attributes: AttributedStringDictionary = [:]
+    public var attributes: AttributedStringDictionary = [:]
     
     public init() {}
     
