@@ -24,7 +24,7 @@ public class UICollectionViewBuilder<T: UICollectionView> {
     @discardableResult
     public func scrollDirection(_ scrollDirection: UICollectionView.ScrollDirection) -> Self {
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.scrollDirection = .vertical
+            layout.scrollDirection = scrollDirection
         }
         return self
     }
@@ -124,6 +124,12 @@ public class UICollectionViewBuilder<T: UICollectionView> {
     @discardableResult
     public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
         self.collectionView.accessibilityIdentifier = accessibilityIdentifier
+        return self
+    }
+
+    @discardableResult
+    public func registerCell<C: UICollectionViewCell>(_ cellType: C.Type, reuseIdentifier: String) -> Self {
+        self.collectionView.register(cellType, forCellWithReuseIdentifier: reuseIdentifier)
         return self
     }
     
