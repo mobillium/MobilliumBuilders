@@ -96,7 +96,7 @@ class UIBarButtonItemBuilderTests: XCTestCase {
     }
     
     func testAction() {
-        let action = #selector(TestUIBarButtonItemViewController.barButtonItemTapped)
+        let action = #selector(barButtonItemTapped)
         
         let barButtonItem = UIBarButtonItemBuilder()
             .action(action)
@@ -105,12 +105,11 @@ class UIBarButtonItemBuilderTests: XCTestCase {
         XCTAssertEqual(barButtonItem.action, action)
     }
     
+    @IBAction private func barButtonItemTapped() {}
+    
     func testTarget() {
-        let action = #selector(TestUIBarButtonItemViewController.barButtonItemTapped)
-        let target = TestUIBarButtonItemViewController.self
         let barButtonItem = UIBarButtonItemBuilder()
-            .action(action)
-            .target(target)
+            .target(self)
             .build()
         
         XCTAssertNotNil(barButtonItem.target)
@@ -140,14 +139,4 @@ class UIBarButtonItemBuilderTests: XCTestCase {
         
         XCTAssertEqual(barButtonItem.accessibilityIdentifier, accessibilityIdentifier)
     }
-}
-
-
-// MARK: - TestUIBarButtonItemViewController
-class TestUIBarButtonItemViewController: UIViewController {
-    
-    @IBAction func barButtonItemTapped() {
-        
-    }
-    
 }
