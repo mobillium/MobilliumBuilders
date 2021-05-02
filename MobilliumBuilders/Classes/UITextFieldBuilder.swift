@@ -129,6 +129,24 @@ public class UITextFieldBuilder<T: UITextField> {
         return self
     }
     
+    @discardableResult
+    public func backgroundColor(_ backgroundColor: UIColor) -> Self {
+        self.textField.backgroundColor = backgroundColor
+        return self
+    }
+    
+    @discardableResult
+    public func isSecureTextEntry(_ isSecureTextEntry: Bool) -> Self {
+        self.textField.isSecureTextEntry = isSecureTextEntry
+        return self
+    }
+    
+    @discardableResult
+    public func autocapitalizationType(_ autocapitalizationType: UITextAutocapitalizationType) -> Self {
+        self.textField.autocapitalizationType = autocapitalizationType
+        return self
+    }
+    
     public func build() -> T {
         return textField
     }

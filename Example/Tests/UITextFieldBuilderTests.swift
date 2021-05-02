@@ -185,4 +185,31 @@ class UITextFieldBuilderTests: XCTestCase {
         
         XCTAssertEqual(textField.layer.borderColor, borderColor)
     }
+    
+    func testBackgroundColor() {
+        let backgroundColor = UIColor.white
+        let textField = UITextFieldBuilder()
+            .backgroundColor(backgroundColor)
+            .build()
+        
+        XCTAssertEqual(textField.backgroundColor, backgroundColor)
+    }
+    
+    func testSecureTextEntry() {
+        let isSecureTextEntry = true
+        let textField = UITextFieldBuilder()
+            .isSecureTextEntry(isSecureTextEntry)
+            .build()
+        
+        XCTAssertEqual(textField.isSecureTextEntry, isSecureTextEntry)
+    }
+    
+    func testAutocapitalizationType() {
+        let autocapitalizationType: UITextAutocapitalizationType = .none
+        let textField = UITextFieldBuilder()
+            .autocapitalizationType(autocapitalizationType)
+            .build()
+        
+        XCTAssertEqual(textField.autocapitalizationType, autocapitalizationType)
+    }
 }
