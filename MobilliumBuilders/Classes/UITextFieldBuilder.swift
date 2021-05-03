@@ -62,6 +62,24 @@ public class UITextFieldBuilder<T: UITextField> {
     }
     
     @discardableResult
+    public func borderWidth(_ borderWidth: CGFloat) -> Self {
+        self.textField.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func borderColor(_ borderColor: CGColor) -> Self {
+        self.textField.layer.borderColor = borderColor
+        return self
+    }
+    
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.textField.layer.cornerRadius = cornerRadius
+        return self
+    }
+    
+    @discardableResult
     public func leftView(_ view: UIView?, viewMode: UITextField.ViewMode) -> Self {
         self.textField.leftView = view
         self.textField.leftViewMode = viewMode
@@ -108,6 +126,24 @@ public class UITextFieldBuilder<T: UITextField> {
     @discardableResult
     public func accessibilityIdentifier(_ accessibilityIdentifier: String?) -> Self {
         self.textField.accessibilityIdentifier = accessibilityIdentifier
+        return self
+    }
+    
+    @discardableResult
+    public func backgroundColor(_ backgroundColor: UIColor) -> Self {
+        self.textField.backgroundColor = backgroundColor
+        return self
+    }
+    
+    @discardableResult
+    public func isSecureTextEntry(_ isSecureTextEntry: Bool) -> Self {
+        self.textField.isSecureTextEntry = isSecureTextEntry
+        return self
+    }
+    
+    @discardableResult
+    public func autocapitalizationType(_ autocapitalizationType: UITextAutocapitalizationType) -> Self {
+        self.textField.autocapitalizationType = autocapitalizationType
         return self
     }
     

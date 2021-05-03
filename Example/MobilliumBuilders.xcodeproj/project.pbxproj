@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		14F6A9DC434E70976A1A52D7 /* Pods_MobilliumBuilders_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299AB978ED542F326C02897B /* Pods_MobilliumBuilders_Tests.framework */; };
 		7A00777826013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00777726013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift */; };
+		8490EA9A26208EFF00DD0707 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */; };
+		8490EA9F2620905400DD0707 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */; };
 		A22847BD26032F5700C790FE /* UIViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847BC26032F5700C790FE /* UIViewBuilderTests.swift */; };
 		A22847CC2603482900C790FE /* UIImageViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847CB2603482900C790FE /* UIImageViewBuilderTests.swift */; };
 		A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */; };
@@ -17,14 +19,15 @@
 		A253CC9E2604C83A00E55164 /* UIPageControlBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */; };
 		A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */; };
 		A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */; };
+		A28E200F262456F1000EAA52 /* UIBarButtonItemBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E200E262456F1000EAA52 /* UIBarButtonItemBuilderTests.swift */; };
 		A2ABE3012609C6BE00797A72 /* UIStepperBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */; };
 		A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */; };
 		A2BE5FE62601FC9B00DAA587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */; };
 		A2BE60082602175F00DAA587 /* UIScrollViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */; };
 		A2BE602A26022D5D00DAA587 /* UILabelBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE602926022D5D00DAA587 /* UILabelBuilderTests.swift */; };
 		A2D225152608BFF600E3F8B5 /* UISwitchBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */; };
-		A2D225472608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */; };
 		A2D225342608CAC300E3F8B5 /* UISliderBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225332608CAC300E3F8B5 /* UISliderBuilderTests.swift */; };
+		A2D225472608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7895CD3E1B1CF98C30AC2E27 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilliumBuilders_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A00777726013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringDictionaryBuilderTests.swift; sourceTree = "<group>"; };
+		8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		A22847BC26032F5700C790FE /* UIViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBuilderTests.swift; sourceTree = "<group>"; };
 		A22847CB2603482900C790FE /* UIImageViewBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewBuilderTests.swift; sourceTree = "<group>"; };
 		A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilderTests.swift; sourceTree = "<group>"; };
@@ -44,14 +49,15 @@
 		A253CC9D2604C83A00E55164 /* UIPageControlBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlBuilderTests.swift; sourceTree = "<group>"; };
 		A253CCC32604D9AA00E55164 /* UITextViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewBuilderTests.swift; sourceTree = "<group>"; };
 		A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewBuilderTests.swift; sourceTree = "<group>"; };
+		A28E200E262456F1000EAA52 /* UIBarButtonItemBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemBuilderTests.swift; sourceTree = "<group>"; };
 		A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE5FE52601FC9B00DAA587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BE60072602175F00DAA587 /* UIScrollViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewBuilderTests.swift; sourceTree = "<group>"; };
 		A2BE602926022D5D00DAA587 /* UILabelBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelBuilderTests.swift; sourceTree = "<group>"; };
 		A2D225142608BFF600E3F8B5 /* UISwitchBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchBuilderTests.swift; sourceTree = "<group>"; };
-		A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilderTests.swift; sourceTree = "<group>"; };
 		A2D225332608CAC300E3F8B5 /* UISliderBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderBuilderTests.swift; sourceTree = "<group>"; };
+		A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewBuilderTests.swift; sourceTree = "<group>"; };
 		AC7777DF2E3663D0B79A3064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +105,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8490EA9826208EB800DD0707 /* Supporting Classes */,
 				7A00777726013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift */,
 				A27B27BF2601E824003C16F0 /* UIStackViewBuilderTests.swift */,
 				A2BE5FCD2601F34200DAA587 /* UIButtonBuilderTests.swift */,
@@ -115,6 +122,7 @@
 				A2D225462608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift */,
 				A2D225332608CAC300E3F8B5 /* UISliderBuilderTests.swift */,
 				A2ABE3002609C6BE00797A72 /* UIStepperBuilderTests.swift */,
+				A28E200E262456F1000EAA52 /* UIBarButtonItemBuilderTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -136,6 +144,15 @@
 				AC7777DF2E3663D0B79A3064 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8490EA9826208EB800DD0707 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */,
+				8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */,
+			);
+			name = "Supporting Classes";
 			sourceTree = "<group>";
 		};
 		A2BE5FE42601FC8800DAA587 /* Assets */ = {
@@ -275,6 +292,7 @@
 				A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */,
 				A22847CC2603482900C790FE /* UIImageViewBuilderTests.swift in Sources */,
 				A253CCC42604D9AA00E55164 /* UITextViewBuilderTests.swift in Sources */,
+				A28E200F262456F1000EAA52 /* UIBarButtonItemBuilderTests.swift in Sources */,
 				A2D225472608D8C500E3F8B5 /* UIProgressViewBuilderTests.swift in Sources */,
 				7A00777826013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift in Sources */,
 				A2D225342608CAC300E3F8B5 /* UISliderBuilderTests.swift in Sources */,
@@ -282,10 +300,12 @@
 				A253CC882604A82700E55164 /* UICollectionViewBuilderTests.swift in Sources */,
 				A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */,
 				A2BE602A26022D5D00DAA587 /* UILabelBuilderTests.swift in Sources */,
+				8490EA9F2620905400DD0707 /* TestCollectionViewCell.swift in Sources */,
 				A22847BD26032F5700C790FE /* UIViewBuilderTests.swift in Sources */,
 				A253CC9E2604C83A00E55164 /* UIPageControlBuilderTests.swift in Sources */,
 				A2D225152608BFF600E3F8B5 /* UISwitchBuilderTests.swift in Sources */,
 				A253CC7A26048AF600E55164 /* UITableViewBuilderTests.swift in Sources */,
+				8490EA9A26208EFF00DD0707 /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
