@@ -175,7 +175,15 @@ class UITableViewBuilderTests: XCTestCase {
 
         XCTAssertEqual(tableView.accessibilityIdentifier, accessibilityIdentifier)
     }
-
+    
+    func testStyle() {
+        let style: UITableView.Style = .grouped
+        let tableView = UITableViewBuilder(style)
+            .build()
+        
+        XCTAssertEqual(tableView.style, style)
+    }
+  
     func testCellRegistration() {
         let cellIdentifier = "TestTableViewCell"
         let tableView = UITableViewBuilder()
@@ -193,7 +201,6 @@ class UITableViewBuilderTests: XCTestCase {
                 break
             }
         }
-
         XCTAssertTrue(isContainsIdentifier)
     }
 }
