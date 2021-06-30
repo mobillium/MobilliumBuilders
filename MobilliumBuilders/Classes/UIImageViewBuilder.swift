@@ -115,6 +115,14 @@ public class UIImageViewBuilder<T: UIImageView> {
         return self
     }
     
+    @discardableResult
+    public func size(_ size: CGSize) -> Self {
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.widthAnchor.constraint(equalToConstant: size.width).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: size.height).isActive = true
+        return self
+    }
+    
     public func build() -> T {
         return imageView
     }
