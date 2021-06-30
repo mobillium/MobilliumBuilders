@@ -159,4 +159,16 @@ class UIImageViewBuilderTests: XCTestCase {
         XCTAssertEqual(imageView.accessibilityIdentifier, accessibilityIdentifier)
     }
     
+    func testSize() {
+        let size: CGSize = .init(width: 10, height: 10)
+        let imageView = UIImageViewBuilder()
+            .size(size)
+            .build()
+        
+        let widthConstraint = imageView.constraints.filter({ $0.firstAttribute == NSLayoutConstraint.Attribute.width }).first!
+        let heightConstraint = imageView.constraints.filter({ $0.firstAttribute == NSLayoutConstraint.Attribute.height }).first!
+        XCTAssertEqual(widthConstraint.constant, size.width)
+        XCTAssertEqual(heightConstraint.constant, size.height)
+    }
+    
 }
