@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.0"
 
-  s.source_files = 'MobilliumBuilders/Classes/**/*'
+  s.source_files = 'Sources/MobilliumBuilders/Classes/**/*'
 
 end

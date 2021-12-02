@@ -19,6 +19,6 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "MobilliumBuilders/Classes/**/*",
+  "source_files": "Sources/MobilliumBuilders/Classes/**/*",
   "swift_version": "5.0"
 }
