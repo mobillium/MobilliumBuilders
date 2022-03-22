@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/mobillium/MobilliumBuilders.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mobillium'
   s.ios.deployment_target = '9.0'
-  
+
   s.swift_version = "5.0"
-  
-  s.source_files = 'MobilliumBuilders/Classes/**/*'
-  
+
+  s.source_files = 'Sources/MobilliumBuilders/Classes/**/*'
+
 end

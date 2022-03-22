@@ -39,6 +39,7 @@ MobilliumBuilders comes with these builders.
 - UISwitchBuilder
 - UISliderBuilder
 - UIStepperBuilder
+- UIBarButtonItemBuilder
 
 
 Example usage:

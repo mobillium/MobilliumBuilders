@@ -8,11 +8,13 @@
 import UIKit
 
 public class UITableViewBuilder<T: UITableView> {
-
-    public let tableView = T()
-
-    public init() { }
-
+    
+    public var tableView = T()
+    
+    public init(_ style: UITableView.Style = .plain) {
+        tableView = T(frame: .zero, style: style)
+    }
+    
     @discardableResult
     public func backgroundColor(_ backgroundColor: UIColor) -> Self {
         self.tableView.backgroundColor = backgroundColor

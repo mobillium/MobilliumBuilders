@@ -197,4 +197,41 @@ class UICollectionViewBuilderTests: XCTestCase {
 
         XCTAssertTrue(isContainsIdentifier)
     }
+    
+    func testCornerRadius() {
+        let cornerRadius: CGFloat = 10
+        let collectionView = UICollectionViewBuilder()
+            .cornerRadius(10)
+            .build()
+
+        XCTAssertEqual(cornerRadius, collectionView.layer.cornerRadius)
+    }
+    
+    func testClipsToBounds() {
+        let clipsToBounds = true
+        let collectionView = UICollectionViewBuilder()
+            .clipsToBounds(true)
+            .build()
+
+        XCTAssertEqual(clipsToBounds, collectionView.clipsToBounds)
+    }
+    
+    func testItemSize() {
+        let itemSize: CGSize = .init(width: 10, height: 10)
+        let collectionView = UICollectionViewBuilder()
+            .itemSize(itemSize)
+            .build()
+
+        XCTAssertEqual(itemSize, (collectionView.collectionViewLayout as? UICollectionViewFlowLayout)?.itemSize)
+    }
+    
+    func testTintColor() {
+        let tintColor: UIColor = .black
+        let collectionView = UICollectionViewBuilder()
+            .tintColor(tintColor)
+            .build()
+
+        XCTAssertEqual(tintColor, collectionView.tintColor)
+    }
+
 }

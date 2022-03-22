@@ -133,6 +133,32 @@ public class UICollectionViewBuilder<T: UICollectionView> {
         return self
     }
     
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.collectionView.layer.cornerRadius = cornerRadius
+        return self
+    }
+    
+    @discardableResult
+    public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
+        self.collectionView.clipsToBounds = clipsToBounds
+        return self
+    }
+    
+    @discardableResult
+    public func itemSize(_ itemSize: CGSize) -> Self {
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            layout.itemSize = itemSize
+        }
+        return self
+    }
+    
+    @discardableResult
+    public func tintColor(_ tintColor: UIColor) -> Self {
+        self.collectionView.tintColor = tintColor
+        return self
+    }
+    
     public func build() -> T {
         return collectionView
     }
