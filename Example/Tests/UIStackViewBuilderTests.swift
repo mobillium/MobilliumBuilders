@@ -53,12 +53,16 @@ class UIStackViewBuilderTests: XCTestCase {
     }
     
     func testBackgroundColor() {
-        let backgroundColor = UIColor.blue
-        let stackView = UIStackViewBuilder()
-            .backgroundColor(backgroundColor)
-            .build()
-        
-        XCTAssertEqual(stackView.backgroundColor, backgroundColor)
+        if #available(iOS 14.0, *) {
+            let backgroundColor = UIColor.blue
+            let stackView = UIStackViewBuilder()
+                .backgroundColor(backgroundColor)
+                .build()
+            
+            XCTAssertEqual(stackView.backgroundColor, backgroundColor)
+        } else {
+            XCTAssertTrue(true)
+        }
     }
     
     func testIsUserInteractionEnabled() {
