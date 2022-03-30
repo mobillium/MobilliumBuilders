@@ -97,5 +97,22 @@ class UIStackViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(stackView.accessibilityIdentifier, accessibilityIdentifier)
     }
+    
+    func testCornerRadius() {
+        let cornerRadius: CGFloat = 10
+        let stackView = UIStackViewBuilder()
+            .cornerRadius(cornerRadius)
+            .build()
 
+        XCTAssertEqual(stackView.layer.cornerRadius, cornerRadius)
+        XCTAssertNotEqual(stackView.layer.cornerRadius, 20)
+    }
+    
+    func testClipsToBounds() {
+        let stackView = UIStackViewBuilder()
+            .clipsToBounds(true)
+            .build()
+        
+        XCTAssertTrue(stackView.clipsToBounds)
+    }
 }
