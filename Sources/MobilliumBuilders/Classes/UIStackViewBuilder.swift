@@ -37,6 +37,18 @@ public class UIStackViewBuilder<T: UIStackView> {
         return self
     }
     
+    @discardableResult
+    public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
+        self.stackView.layer.cornerRadius = cornerRadius
+        return self
+    }
+    
+    @discardableResult
+    public func clipsToBounds(_ clipsToBounds: Bool) -> Self {
+        self.stackView.clipsToBounds = clipsToBounds
+        return self
+    }
+    
     @available(iOS 14.0, *)
     @discardableResult
     public func backgroundColor(_ backgroundColor: UIColor) -> Self {

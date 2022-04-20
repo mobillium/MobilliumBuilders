@@ -1,22 +1,24 @@
 {
   "name": "MobilliumBuilders",
-  "version": "0.1.0",
-  "summary": "A short description of MobilliumBuilders.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Mehmet Salih Aslan/MobilliumBuilders",
+  "version": "1.4.0",
+  "summary": "Builders classes",
+  "homepage": "https://github.com/mobillium/MobilliumBuilders",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Mehmet Salih Aslan": "aslanmsalih@gmail.com"
+    "Mobillium": "info@mobillium.com"
   },
   "source": {
-    "git": "https://github.com/Mehmet Salih Aslan/MobilliumBuilders.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/mobillium/MobilliumBuilders.git",
+    "tag": "1.4.0"
   },
+  "social_media_url": "https://twitter.com/mobillium",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MobilliumBuilders/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Sources/MobilliumBuilders/Classes/**/*",
+  "swift_version": "5.0"
 }
