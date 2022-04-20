@@ -159,6 +159,12 @@ public class UIButtonBuilder<T: UIButton> {
         return self
     }
     
+    @discardableResult
+    public func isSelected(_ isSelected: Bool) -> Self {
+        self.button.isSelected = isSelected
+        return self
+    }
+    
     public func build() -> T {
         return button
     }
