@@ -165,6 +165,12 @@ public class UIButtonBuilder<T: UIButton> {
         return self
     }
     
+    @discardableResult
+    public func addTarget(target: Any? = nil, _ selector: Selector, event: UIControl.Event = .touchUpInside) -> Self {
+        self.button.addTarget(target ?? self, action: selector, for: event)
+        return self
+    }
+    
     public func build() -> T {
         return button
     }
