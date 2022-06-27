@@ -11,6 +11,7 @@
 		7A00777826013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A00777726013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift */; };
 		8490EA9A26208EFF00DD0707 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */; };
 		8490EA9F2620905400DD0707 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */; };
+		9220E90E2869A44800F4A677 /* TestCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9220E90D2869A44800F4A677 /* TestCollectionReusableView.swift */; };
 		A22847BD26032F5700C790FE /* UIViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847BC26032F5700C790FE /* UIViewBuilderTests.swift */; };
 		A22847CC2603482900C790FE /* UIImageViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22847CB2603482900C790FE /* UIImageViewBuilderTests.swift */; };
 		A228481726035A4E00C790FE /* UITextFieldBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */; };
@@ -41,6 +42,7 @@
 		7A00777726013A2C0085E756 /* AttributedStringDictionaryBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringDictionaryBuilderTests.swift; sourceTree = "<group>"; };
 		8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		9220E90D2869A44800F4A677 /* TestCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionReusableView.swift; sourceTree = "<group>"; };
 		A22847BC26032F5700C790FE /* UIViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBuilderTests.swift; sourceTree = "<group>"; };
 		A22847CB2603482900C790FE /* UIImageViewBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewBuilderTests.swift; sourceTree = "<group>"; };
 		A228481626035A4E00C790FE /* UITextFieldBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldBuilderTests.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				8490EA9926208EFF00DD0707 /* TestTableViewCell.swift */,
 				8490EA9E2620905400DD0707 /* TestCollectionViewCell.swift */,
+				9220E90D2869A44800F4A677 /* TestCollectionReusableView.swift */,
 			);
 			name = "Supporting Classes";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				A2D225342608CAC300E3F8B5 /* UISliderBuilderTests.swift in Sources */,
 				A27B27C02601E824003C16F0 /* UIStackViewBuilderTests.swift in Sources */,
 				A253CC882604A82700E55164 /* UICollectionViewBuilderTests.swift in Sources */,
+				9220E90E2869A44800F4A677 /* TestCollectionReusableView.swift in Sources */,
 				A2BE5FCE2601F34200DAA587 /* UIButtonBuilderTests.swift in Sources */,
 				A2BE602A26022D5D00DAA587 /* UILabelBuilderTests.swift in Sources */,
 				8490EA9F2620905400DD0707 /* TestCollectionViewCell.swift in Sources */,
