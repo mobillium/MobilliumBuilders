@@ -198,6 +198,44 @@ class UICollectionViewBuilderTests: XCTestCase {
         XCTAssertTrue(isContainsIdentifier)
     }
     
+    func testReusableHeaderViewRegistration() {
+        let cellIdentifier = "TestCollectionReusableHeaderCell"
+        let collectionView = UICollectionViewBuilder()
+            .registerHeader(TestCollectionReusableView.self, reuseIdentifier: cellIdentifier)
+            .build()
+        guard let registeredCellClasses = collectionView.value(forKey: "_supplementaryViewClassDict") as? [String: Any] else {
+            return XCTFail("Any registered cell not found for this collection view!")
+        }
+        var isContainsIdentifier = false
+
+        for (key, _) in registeredCellClasses {
+            if key == "UICollectionElementKindSectionHeader/" + cellIdentifier {
+                isContainsIdentifier = true
+                break
+            }
+        }
+        XCTAssertTrue(isContainsIdentifier)
+    }
+    
+    func testReusableFooterViewRegistration() {
+        let cellIdentifier = "TestCollectionReusableFooterCell"
+        let collectionView = UICollectionViewBuilder()
+            .registerFooter(TestCollectionReusableView.self, reuseIdentifier: cellIdentifier)
+            .build()
+        guard let registeredCellClasses = collectionView.value(forKey: "_supplementaryViewClassDict") as? [String: Any] else {
+            return XCTFail("Any registered cell not found for this collection view!")
+        }
+        var isContainsIdentifier = false
+
+        for (key, _) in registeredCellClasses {
+            if key == "UICollectionElementKindSectionFooter/" + cellIdentifier {
+                isContainsIdentifier = true
+                break
+            }
+        }
+        XCTAssertTrue(isContainsIdentifier)
+    }
+    
     func testCornerRadius() {
         let cornerRadius: CGFloat = 10
         let collectionView = UICollectionViewBuilder()

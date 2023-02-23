@@ -134,6 +134,18 @@ public class UICollectionViewBuilder<T: UICollectionView> {
     }
     
     @discardableResult
+    public func registerHeader<C: UICollectionReusableView>(_ cellType: C.Type, reuseIdentifier: String) -> Self {
+        self.collectionView.register(C.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: reuseIdentifier)
+        return self
+    }
+    
+    @discardableResult
+    public func registerFooter<C: UICollectionReusableView>(_ cellType: C.Type, reuseIdentifier: String) -> Self {
+        self.collectionView.register(C.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: reuseIdentifier)
+        return self
+    }
+    
+    @discardableResult
     public func cornerRadius(_ cornerRadius: CGFloat) -> Self {
         self.collectionView.layer.cornerRadius = cornerRadius
         return self
