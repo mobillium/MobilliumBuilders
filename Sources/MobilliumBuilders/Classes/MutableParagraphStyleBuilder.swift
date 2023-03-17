@@ -1,5 +1,5 @@
 //
-//  AttributedStringDictionaryBuilder.swift
+//  MutableParagraphStyleBuilder.swift
 //  MobilliumBuilders
 //
 //  Created by Mehmet Salih Aslan on 15.03.2023.
@@ -91,8 +91,8 @@ public class MutableParagraphStyleBuilder {
         return self
     }
     
-    @discardableResult
     @available(iOS 15.0, *)
+    @discardableResult
     public func usesDefaultHyphenation(_ usesDefaultHyphenation: Bool) -> Self {
         self.mutableParagraphStyle.usesDefaultHyphenation = usesDefaultHyphenation
         return self
