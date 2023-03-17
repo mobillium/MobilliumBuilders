@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		115F3CE1F6B11D3BEDB12E82C1DD93B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		033B1D276B0B8EA64AAA7EAB72934A9F /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793045EC4AE8B6DEBD94F0AA6B6BB7B /* UITextViewBuilder.swift */; };
+		0762CF99DCF66FADC260EAEF316FE0E3 /* MobilliumBuilders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C132B130A9E56368149A27DB5B06FD /* MobilliumBuilders-dummy.m */; };
 		1408AE9CB165A111B08637A8A63FE442 /* Pods-MobilliumBuilders_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8457A0BA4F2B3A757D32D733CBC356E7 /* Pods-MobilliumBuilders_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19874AF5823D11C2A8DBBA5DA090FD32 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813E569C04C28E7A79826FD40572A7C /* UIStackViewBuilder.swift */; };
-		3A32B5E5ED6B7D44C8A6D52CA3A08275 /* MobilliumBuilders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3214064413CC9564AFBE3641F2FA4 /* MobilliumBuilders-dummy.m */; };
-		3A42BDA5CFFA9CBF9132D15560F15073 /* UIStepperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641F76B78B2C16B5DC64FCB4B9930229 /* UIStepperBuilder.swift */; };
-		3B285CA1FA5FACCFE61BD88081D417D6 /* UIImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D03CC3BAB0129473BE4219BF76D5A /* UIImageViewBuilder.swift */; };
-		3F67A608A947EEBB6D6E82D2A5CACA48 /* UIViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BAA23774C143EA40E9DC44E867918B /* UIViewBuilder.swift */; };
-		41294D5CDCB6AF283194C5D79E885AEF /* UIProgressViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEA828CD3366DAFF77799CF84F00D7 /* UIProgressViewBuilder.swift */; };
-		5591A974A07C2692CC7DD294662C806D /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A570BEBF2AE32E9570F381AF57A36 /* UIScrollViewBuilder.swift */; };
-		59B26C6CD2C859929AFD8C0282546D14 /* UIBarButtonItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF82267E6B27DE8FB727BE74CDAB4188 /* UIBarButtonItemBuilder.swift */; };
+		148B074A97EF46643538464684868067 /* UIBarButtonItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244C1FEB6C3B37D8AE73876EDBE6040 /* UIBarButtonItemBuilder.swift */; };
+		22913CCCCFAB5E26D04C3C26E6E4FBA3 /* AttributedStringDictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137DBEA9CDDEA43FA34C5769231AB96E /* AttributedStringDictionaryBuilder.swift */; };
+		366BED9614D578565E73D3C1C6A31AAE /* UISwitchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DF0B822B40FF98F431096556934AD /* UISwitchBuilder.swift */; };
+		3FCFBDE3DAC8A02A229C8824527063CC /* UICollectionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03E4CE66728FFBAF52386490FDE7A7 /* UICollectionViewBuilder.swift */; };
+		5BA717FE7FBB79C9968BC4A449C9C096 /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562CDB44E823B1E0F8D3F47A2EFA805 /* UITableViewBuilder.swift */; };
+		6183B9BBBF80534BFC2C08D044509B26 /* UITextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0086DEAC0F935049937FBF05DED9773A /* UITextFieldBuilder.swift */; };
+		63BB4309FCD28F5324B81EFA7A145E5D /* MobilliumBuilders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11381A489F793A456FA62DBB8818CA91 /* MobilliumBuilders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69F9140A1023285268A5441635CF4C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6BD47402E4FD2909BAC0E6CD559BE104 /* UICollectionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A734476928246481C78848CB79385269 /* UICollectionViewBuilder.swift */; };
-		84575834B3470909DD834EFDA307EFBE /* MobilliumBuilders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A501C62F68F45F6D2D126493D84C80E9 /* MobilliumBuilders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		951CD616B3123948D7197ACEFB2194A4 /* UITableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFEFAE619D9503186371980C3F207A /* UITableViewBuilder.swift */; };
-		AAE9DCC8A72603772C5B747B1CA72D57 /* UITextViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF852DFF493984DD9C796A7E14F7737 /* UITextViewBuilder.swift */; };
+		75B6846CDE93C696DA2B5BDF89957CF6 /* UIStepperBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65A2FF6C594BC2B54E09D3323EF27B /* UIStepperBuilder.swift */; };
+		77C1EEFD698D9D926B984CDB63BFBBB0 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605F990E5AC19D5A49A1E308F2B68CD8 /* UIButtonBuilder.swift */; };
+		809E7A668B64D666B3DF376492223BEB /* UIScrollViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A95A47ADA3DFD9C32278BF2E4C60C /* UIScrollViewBuilder.swift */; };
+		8E8E073195448D49E9586BD7CCAA7667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		901827C740055D1B3E09358C80487618 /* UIStackViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B25FBB75B8CA9975405656B53A99D4 /* UIStackViewBuilder.swift */; };
+		BEFF3CFB49CC1CBE2AEE4DA3095191C2 /* UIImageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144391FEBC31D93FB020CD1DEEEF628E /* UIImageViewBuilder.swift */; };
+		C05508F00C581B748EDFCE49C34C4D1F /* MutableParagraphStyleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510BEA67D43BF4EDEED17C56E1E6F74 /* MutableParagraphStyleBuilder.swift */; };
 		C65D16819FE6BA5674347C37EA3CA5A4 /* Pods-MobilliumBuilders_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20192C9CD69E8BCC87DD403C7A2109D3 /* Pods-MobilliumBuilders_Tests-dummy.m */; };
-		C7B785D3C093D831DD543E5BBDE67DFB /* UISliderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A394283A7DEDB1BE225667EAE4364 /* UISliderBuilder.swift */; };
-		CD925788019E578D02ACF222EB0F958D /* UILabelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E40D43609E690EA5DA2D9DED4424 /* UILabelBuilder.swift */; };
-		CEEA20A60962DB3C7675A01C28F9BB0B /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0D24513E1C747CED697EA4143A47C /* UIPageControlBuilder.swift */; };
-		D1329D741455B6650EE73CC68DEFFEE5 /* AttributedStringDictionaryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0F6611402C0D14B11A7EE1BDE62E9 /* AttributedStringDictionaryBuilder.swift */; };
-		F5B0E42D7641FA5748DF51B34C584B37 /* UIButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9BB272D6B09182250D82206B27228 /* UIButtonBuilder.swift */; };
-		F81BB63D084E49EC3FD81CFACBF6BD90 /* UITextFieldBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE8EF6A2BDE7E346EAE30AB838BF139 /* UITextFieldBuilder.swift */; };
-		FA706DA511684656A7D545E3D5699299 /* UISwitchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0151FB5A16CA37B241D33DEB9CA3EE /* UISwitchBuilder.swift */; };
+		C79B24AE6A35B47BC32BD011EB22F112 /* UISliderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF9A6C8530BB599DC3E7543235CA68 /* UISliderBuilder.swift */; };
+		CD3419898ECA26320561FBD0F0E52EB3 /* UILabelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB3588642E8A14A6F44B3CF9858C9A /* UILabelBuilder.swift */; };
+		CE5AF0FF7CC1908FF22D68D43B6EF147 /* UIViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D56736BE79C942BD951455BEAEB155 /* UIViewBuilder.swift */; };
+		E6E418B1DD8B2FB9873CC581EB3D1824 /* UIPageControlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B40DBEA7E95F464666ABEA73B7FF52 /* UIPageControlBuilder.swift */; };
+		F32F54B5D75445B1CA081CC082ECDEBB /* UIProgressViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882E383CC13C4B4F651EEE9F9A8C794 /* UIProgressViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C65FA9D813C0792D1B60F82E4FA6AB86 /* PBXContainerItemProxy */ = {
+		607C48FE87323B536F3F9DCDCEB11E1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,57 +44,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EE8EF6A2BDE7E346EAE30AB838BF139 /* UITextFieldBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITextFieldBuilder.swift; sourceTree = "<group>"; };
+		0086DEAC0F935049937FBF05DED9773A /* UITextFieldBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITextFieldBuilder.swift; sourceTree = "<group>"; };
+		04B40DBEA7E95F464666ABEA73B7FF52 /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPageControlBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIPageControlBuilder.swift; sourceTree = "<group>"; };
+		10D56736BE79C942BD951455BEAEB155 /* UIViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIViewBuilder.swift; sourceTree = "<group>"; };
+		11381A489F793A456FA62DBB8818CA91 /* MobilliumBuilders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobilliumBuilders-umbrella.h"; sourceTree = "<group>"; };
+		137DBEA9CDDEA43FA34C5769231AB96E /* AttributedStringDictionaryBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringDictionaryBuilder.swift; path = Sources/MobilliumBuilders/Classes/AttributedStringDictionaryBuilder.swift; sourceTree = "<group>"; };
+		144391FEBC31D93FB020CD1DEEEF628E /* UIImageViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIImageViewBuilder.swift; sourceTree = "<group>"; };
+		151004F66A23F4B37E0B2F2D4B816C68 /* MobilliumBuilders-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobilliumBuilders-Info.plist"; sourceTree = "<group>"; };
+		1562CDB44E823B1E0F8D3F47A2EFA805 /* UITableViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITableViewBuilder.swift; sourceTree = "<group>"; };
+		1882E383CC13C4B4F651EEE9F9A8C794 /* UIProgressViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIProgressViewBuilder.swift; sourceTree = "<group>"; };
+		1F2DF0B822B40FF98F431096556934AD /* UISwitchBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitchBuilder.swift; path = Sources/MobilliumBuilders/Classes/UISwitchBuilder.swift; sourceTree = "<group>"; };
 		20192C9CD69E8BCC87DD403C7A2109D3 /* Pods-MobilliumBuilders_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobilliumBuilders_Tests-dummy.m"; sourceTree = "<group>"; };
 		282B8E276DB0E7415CDE40C22CBA2B0C /* Pods-MobilliumBuilders_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobilliumBuilders_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32C79B07C8CB7BF68FC24ED47E7B2665 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36EF9A6C8530BB599DC3E7543235CA68 /* UISliderBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISliderBuilder.swift; path = Sources/MobilliumBuilders/Classes/UISliderBuilder.swift; sourceTree = "<group>"; };
+		406AE0F592C852FFFD261A0A1E9AB96E /* MobilliumBuilders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobilliumBuilders.modulemap; sourceTree = "<group>"; };
 		4184286528C4348D2D19D5D5422602E3 /* Pods-MobilliumBuilders_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobilliumBuilders_Tests-Info.plist"; sourceTree = "<group>"; };
-		428D03CC3BAB0129473BE4219BF76D5A /* UIImageViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIImageViewBuilder.swift; sourceTree = "<group>"; };
-		45909E2FD456A7B29EC3562EE626035B /* MobilliumBuilders.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MobilliumBuilders.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		45BEA828CD3366DAFF77799CF84F00D7 /* UIProgressViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIProgressViewBuilder.swift; sourceTree = "<group>"; };
-		4AF9BB272D6B09182250D82206B27228 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIButtonBuilder.swift; sourceTree = "<group>"; };
-		536A394283A7DEDB1BE225667EAE4364 /* UISliderBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISliderBuilder.swift; path = Sources/MobilliumBuilders/Classes/UISliderBuilder.swift; sourceTree = "<group>"; };
-		5A28AE009DE88C256525D71CABD294CB /* MobilliumBuilders-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobilliumBuilders-Info.plist"; sourceTree = "<group>"; };
-		5D710105234FB056901E3E337A917285 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5EF852DFF493984DD9C796A7E14F7737 /* UITextViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITextViewBuilder.swift; sourceTree = "<group>"; };
-		641F76B78B2C16B5DC64FCB4B9930229 /* UIStepperBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStepperBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIStepperBuilder.swift; sourceTree = "<group>"; };
-		6BF3E40D43609E690EA5DA2D9DED4424 /* UILabelBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelBuilder.swift; path = Sources/MobilliumBuilders/Classes/UILabelBuilder.swift; sourceTree = "<group>"; };
-		6D0151FB5A16CA37B241D33DEB9CA3EE /* UISwitchBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitchBuilder.swift; path = Sources/MobilliumBuilders/Classes/UISwitchBuilder.swift; sourceTree = "<group>"; };
+		5ED6C7395D6843A3154E1E9C2F350205 /* MobilliumBuilders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.debug.xcconfig; sourceTree = "<group>"; };
+		605F990E5AC19D5A49A1E308F2B68CD8 /* UIButtonBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIButtonBuilder.swift; sourceTree = "<group>"; };
+		684597E967EB79C52018FC5B50F143DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6D99018FA023DE3011AAEFE753E63EE4 /* Pods-MobilliumBuilders_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobilliumBuilders_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E4BAAD9AB6AA44E43E1EBE9B98F48A9 /* Pods-MobilliumBuilders_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobilliumBuilders_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		71FCF72C619792592C61135CF16F9713 /* MobilliumBuilders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobilliumBuilders-prefix.pch"; sourceTree = "<group>"; };
+		72FB3588642E8A14A6F44B3CF9858C9A /* UILabelBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelBuilder.swift; path = Sources/MobilliumBuilders/Classes/UILabelBuilder.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7366594ABB2B156DEA6FDA82A29EFC41 /* MobilliumBuilders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobilliumBuilders-prefix.pch"; sourceTree = "<group>"; };
-		809F295C238AC21AEBD5AD34BE11C17D /* MobilliumBuilders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobilliumBuilders.modulemap; sourceTree = "<group>"; };
-		83BAA23774C143EA40E9DC44E867918B /* UIViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIViewBuilder.swift; sourceTree = "<group>"; };
+		79E60BD725F9A50A06DA280CD66809FE /* MobilliumBuilders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.release.xcconfig; sourceTree = "<group>"; };
+		7E03E4CE66728FFBAF52386490FDE7A7 /* UICollectionViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UICollectionViewBuilder.swift; sourceTree = "<group>"; };
 		8457A0BA4F2B3A757D32D733CBC356E7 /* Pods-MobilliumBuilders_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobilliumBuilders_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8813E569C04C28E7A79826FD40572A7C /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIStackViewBuilder.swift; sourceTree = "<group>"; };
-		8E50252EB8A35CCB82DB75DCE525ED35 /* MobilliumBuilders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.debug.xcconfig; sourceTree = "<group>"; };
+		8510BEA67D43BF4EDEED17C56E1E6F74 /* MutableParagraphStyleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableParagraphStyleBuilder.swift; path = Sources/MobilliumBuilders/Classes/MutableParagraphStyleBuilder.swift; sourceTree = "<group>"; };
+		880A95A47ADA3DFD9C32278BF2E4C60C /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIScrollViewBuilder.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D98D488FE03AD72AA4A697CB907257 /* Pods-MobilliumBuilders_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobilliumBuilders_Tests"; path = Pods_MobilliumBuilders_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A501C62F68F45F6D2D126493D84C80E9 /* MobilliumBuilders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobilliumBuilders-umbrella.h"; sourceTree = "<group>"; };
-		A734476928246481C78848CB79385269 /* UICollectionViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UICollectionViewBuilder.swift; sourceTree = "<group>"; };
-		A8C0D24513E1C747CED697EA4143A47C /* UIPageControlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPageControlBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIPageControlBuilder.swift; sourceTree = "<group>"; };
-		ACD0F6611402C0D14B11A7EE1BDE62E9 /* AttributedStringDictionaryBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringDictionaryBuilder.swift; path = Sources/MobilliumBuilders/Classes/AttributedStringDictionaryBuilder.swift; sourceTree = "<group>"; };
+		A244C1FEB6C3B37D8AE73876EDBE6040 /* UIBarButtonItemBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIBarButtonItemBuilder.swift; sourceTree = "<group>"; };
+		A3B25FBB75B8CA9975405656B53A99D4 /* UIStackViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIStackViewBuilder.swift; sourceTree = "<group>"; };
 		B0B8CA4DF6FF003DE8CB34EFF9C3965B /* Pods-MobilliumBuilders_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobilliumBuilders_Tests.modulemap"; sourceTree = "<group>"; };
+		B134EA270292B69565A5B5768104C99D /* MobilliumBuilders.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MobilliumBuilders.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C15B281C595D1D46A307C1CD3178DBD7 /* MobilliumBuilders */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobilliumBuilders; path = MobilliumBuilders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADE4FD0D519D2AE54557BD5EF31E903 /* Pods-MobilliumBuilders_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobilliumBuilders_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF82267E6B27DE8FB727BE74CDAB4188 /* UIBarButtonItemBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIBarButtonItemBuilder.swift; sourceTree = "<group>"; };
-		E1E8907A8A6A5377DE4AB2B5BDFF6703 /* MobilliumBuilders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.release.xcconfig; sourceTree = "<group>"; };
+		CB65A2FF6C594BC2B54E09D3323EF27B /* UIStepperBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStepperBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIStepperBuilder.swift; sourceTree = "<group>"; };
+		E0C132B130A9E56368149A27DB5B06FD /* MobilliumBuilders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobilliumBuilders-dummy.m"; sourceTree = "<group>"; };
+		E793045EC4AE8B6DEBD94F0AA6B6BB7B /* UITextViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITextViewBuilder.swift; sourceTree = "<group>"; };
+		F0F1BFE24A32EBB3206F4E53120D903E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F2AD62E3D5C5DBE8886135E99C874E88 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobilliumBuilders_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F66A570BEBF2AE32E9570F381AF57A36 /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIScrollViewBuilder.swift; sourceTree = "<group>"; };
-		F6A3214064413CC9564AFBE3641F2FA4 /* MobilliumBuilders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobilliumBuilders-dummy.m"; sourceTree = "<group>"; };
-		FADFEFAE619D9503186371980C3F207A /* UITableViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UITableViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FAEFA2451F198B77737452D55671639 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				115F3CE1F6B11D3BEDB12E82C1DD93B3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		76DAC47919BDEF82664070D9EAC1F2F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,19 +96,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85887128786F8F29C6731F7722C4DFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8E073195448D49E9586BD7CCAA7667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20D7F407AF2B270B3A9474EF3C89B558 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5D710105234FB056901E3E337A917285 /* LICENSE */,
-				45909E2FD456A7B29EC3562EE626035B /* MobilliumBuilders.podspec */,
-				32C79B07C8CB7BF68FC24ED47E7B2665 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2469A59D08267CAB9D1D8DCC55F4D6EC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,27 +115,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		493DBAEDA85C0402BD9CD17904B6673D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				406AE0F592C852FFFD261A0A1E9AB96E /* MobilliumBuilders.modulemap */,
+				E0C132B130A9E56368149A27DB5B06FD /* MobilliumBuilders-dummy.m */,
+				151004F66A23F4B37E0B2F2D4B816C68 /* MobilliumBuilders-Info.plist */,
+				71FCF72C619792592C61135CF16F9713 /* MobilliumBuilders-prefix.pch */,
+				11381A489F793A456FA62DBB8818CA91 /* MobilliumBuilders-umbrella.h */,
+				5ED6C7395D6843A3154E1E9C2F350205 /* MobilliumBuilders.debug.xcconfig */,
+				79E60BD725F9A50A06DA280CD66809FE /* MobilliumBuilders.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MobilliumBuilders";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		598E6AAE0A517CFE1129B75BD320E423 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				809F295C238AC21AEBD5AD34BE11C17D /* MobilliumBuilders.modulemap */,
-				F6A3214064413CC9564AFBE3641F2FA4 /* MobilliumBuilders-dummy.m */,
-				5A28AE009DE88C256525D71CABD294CB /* MobilliumBuilders-Info.plist */,
-				7366594ABB2B156DEA6FDA82A29EFC41 /* MobilliumBuilders-prefix.pch */,
-				A501C62F68F45F6D2D126493D84C80E9 /* MobilliumBuilders-umbrella.h */,
-				8E50252EB8A35CCB82DB75DCE525ED35 /* MobilliumBuilders.debug.xcconfig */,
-				E1E8907A8A6A5377DE4AB2B5BDFF6703 /* MobilliumBuilders.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MobilliumBuilders";
 			sourceTree = "<group>";
 		};
 		6B58A80913C7E42AD342AEAAE7FF50E1 /* Pods-MobilliumBuilders_Tests */ = {
@@ -163,10 +155,48 @@
 			path = "Target Support Files/Pods-MobilliumBuilders_Tests";
 			sourceTree = "<group>";
 		};
-		8E797059C5D81A1A31CB4E0222101D9B /* Development Pods */ = {
+		72C1F97368587BAFF538089376F9F94A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C38C68C787731CB69E975F997F55C7B6 /* MobilliumBuilders */,
+				F0F1BFE24A32EBB3206F4E53120D903E /* LICENSE */,
+				B134EA270292B69565A5B5768104C99D /* MobilliumBuilders.podspec */,
+				684597E967EB79C52018FC5B50F143DA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		827E01E571F97F1945B2FF202FE9A859 /* MobilliumBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				137DBEA9CDDEA43FA34C5769231AB96E /* AttributedStringDictionaryBuilder.swift */,
+				8510BEA67D43BF4EDEED17C56E1E6F74 /* MutableParagraphStyleBuilder.swift */,
+				A244C1FEB6C3B37D8AE73876EDBE6040 /* UIBarButtonItemBuilder.swift */,
+				605F990E5AC19D5A49A1E308F2B68CD8 /* UIButtonBuilder.swift */,
+				7E03E4CE66728FFBAF52386490FDE7A7 /* UICollectionViewBuilder.swift */,
+				144391FEBC31D93FB020CD1DEEEF628E /* UIImageViewBuilder.swift */,
+				72FB3588642E8A14A6F44B3CF9858C9A /* UILabelBuilder.swift */,
+				04B40DBEA7E95F464666ABEA73B7FF52 /* UIPageControlBuilder.swift */,
+				1882E383CC13C4B4F651EEE9F9A8C794 /* UIProgressViewBuilder.swift */,
+				880A95A47ADA3DFD9C32278BF2E4C60C /* UIScrollViewBuilder.swift */,
+				36EF9A6C8530BB599DC3E7543235CA68 /* UISliderBuilder.swift */,
+				A3B25FBB75B8CA9975405656B53A99D4 /* UIStackViewBuilder.swift */,
+				CB65A2FF6C594BC2B54E09D3323EF27B /* UIStepperBuilder.swift */,
+				1F2DF0B822B40FF98F431096556934AD /* UISwitchBuilder.swift */,
+				1562CDB44E823B1E0F8D3F47A2EFA805 /* UITableViewBuilder.swift */,
+				0086DEAC0F935049937FBF05DED9773A /* UITextFieldBuilder.swift */,
+				E793045EC4AE8B6DEBD94F0AA6B6BB7B /* UITextViewBuilder.swift */,
+				10D56736BE79C942BD951455BEAEB155 /* UIViewBuilder.swift */,
+				72C1F97368587BAFF538089376F9F94A /* Pod */,
+				493DBAEDA85C0402BD9CD17904B6673D /* Support Files */,
+			);
+			name = MobilliumBuilders;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4FDE62FF59EA5FB3B6E2605650A8CA0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827E01E571F97F1945B2FF202FE9A859 /* MobilliumBuilders */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -180,38 +210,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C38C68C787731CB69E975F997F55C7B6 /* MobilliumBuilders */ = {
-			isa = PBXGroup;
-			children = (
-				ACD0F6611402C0D14B11A7EE1BDE62E9 /* AttributedStringDictionaryBuilder.swift */,
-				CF82267E6B27DE8FB727BE74CDAB4188 /* UIBarButtonItemBuilder.swift */,
-				4AF9BB272D6B09182250D82206B27228 /* UIButtonBuilder.swift */,
-				A734476928246481C78848CB79385269 /* UICollectionViewBuilder.swift */,
-				428D03CC3BAB0129473BE4219BF76D5A /* UIImageViewBuilder.swift */,
-				6BF3E40D43609E690EA5DA2D9DED4424 /* UILabelBuilder.swift */,
-				A8C0D24513E1C747CED697EA4143A47C /* UIPageControlBuilder.swift */,
-				45BEA828CD3366DAFF77799CF84F00D7 /* UIProgressViewBuilder.swift */,
-				F66A570BEBF2AE32E9570F381AF57A36 /* UIScrollViewBuilder.swift */,
-				536A394283A7DEDB1BE225667EAE4364 /* UISliderBuilder.swift */,
-				8813E569C04C28E7A79826FD40572A7C /* UIStackViewBuilder.swift */,
-				641F76B78B2C16B5DC64FCB4B9930229 /* UIStepperBuilder.swift */,
-				6D0151FB5A16CA37B241D33DEB9CA3EE /* UISwitchBuilder.swift */,
-				FADFEFAE619D9503186371980C3F207A /* UITableViewBuilder.swift */,
-				1EE8EF6A2BDE7E346EAE30AB838BF139 /* UITextFieldBuilder.swift */,
-				5EF852DFF493984DD9C796A7E14F7737 /* UITextViewBuilder.swift */,
-				83BAA23774C143EA40E9DC44E867918B /* UIViewBuilder.swift */,
-				20D7F407AF2B270B3A9474EF3C89B558 /* Pod */,
-				598E6AAE0A517CFE1129B75BD320E423 /* Support Files */,
-			);
-			name = MobilliumBuilders;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8E797059C5D81A1A31CB4E0222101D9B /* Development Pods */,
+				A4FDE62FF59EA5FB3B6E2605650A8CA0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A6AFAF2A46E98B8E0002A86C2682D637 /* Products */,
 				2469A59D08267CAB9D1D8DCC55F4D6EC /* Targets Support Files */,
@@ -229,11 +232,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A303D8B67DB45D75BCBC731D4E38157 /* Headers */ = {
+		D60AE95FEA77FF1BA83AFC734301892C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84575834B3470909DD834EFDA307EFBE /* MobilliumBuilders-umbrella.h in Headers */,
+				63BB4309FCD28F5324B81EFA7A145E5D /* MobilliumBuilders-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,12 +253,12 @@
 /* Begin PBXNativeTarget section */
 		68E501821970C685DF5C5983E7618A3B /* MobilliumBuilders */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5BD368B48E94029D0E5BFC4BC3C9F60 /* Build configuration list for PBXNativeTarget "MobilliumBuilders" */;
+			buildConfigurationList = B331B95EB19A7F2E2FB9B1394248D1BD /* Build configuration list for PBXNativeTarget "MobilliumBuilders" */;
 			buildPhases = (
-				0A303D8B67DB45D75BCBC731D4E38157 /* Headers */,
-				B5DF821C6440AC91A6B88353376FFC63 /* Sources */,
-				3FAEFA2451F198B77737452D55671639 /* Frameworks */,
-				6C08546850F5A3D9CAE63A1E1F88E37B /* Resources */,
+				D60AE95FEA77FF1BA83AFC734301892C /* Headers */,
+				5FD9C2D0A438BD72565415E1542425CC /* Sources */,
+				85887128786F8F29C6731F7722C4DFDF /* Frameworks */,
+				2126CC7C782139C60E217BB0926B421F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,7 +281,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E87B217AA01029391C0FB660032262D3 /* PBXTargetDependency */,
+				974FB83F13A9B9254BE6999838C55707 /* PBXTargetDependency */,
 			);
 			name = "Pods-MobilliumBuilders_Tests";
 			productName = Pods_MobilliumBuilders_Tests;
@@ -314,14 +317,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37DC2290744AD115F1814700E72DDA47 /* Resources */ = {
+		2126CC7C782139C60E217BB0926B421F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C08546850F5A3D9CAE63A1E1F88E37B /* Resources */ = {
+		37DC2290744AD115F1814700E72DDA47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,6 +334,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5FD9C2D0A438BD72565415E1542425CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22913CCCCFAB5E26D04C3C26E6E4FBA3 /* AttributedStringDictionaryBuilder.swift in Sources */,
+				0762CF99DCF66FADC260EAEF316FE0E3 /* MobilliumBuilders-dummy.m in Sources */,
+				C05508F00C581B748EDFCE49C34C4D1F /* MutableParagraphStyleBuilder.swift in Sources */,
+				148B074A97EF46643538464684868067 /* UIBarButtonItemBuilder.swift in Sources */,
+				77C1EEFD698D9D926B984CDB63BFBBB0 /* UIButtonBuilder.swift in Sources */,
+				3FCFBDE3DAC8A02A229C8824527063CC /* UICollectionViewBuilder.swift in Sources */,
+				BEFF3CFB49CC1CBE2AEE4DA3095191C2 /* UIImageViewBuilder.swift in Sources */,
+				CD3419898ECA26320561FBD0F0E52EB3 /* UILabelBuilder.swift in Sources */,
+				E6E418B1DD8B2FB9873CC581EB3D1824 /* UIPageControlBuilder.swift in Sources */,
+				F32F54B5D75445B1CA081CC082ECDEBB /* UIProgressViewBuilder.swift in Sources */,
+				809E7A668B64D666B3DF376492223BEB /* UIScrollViewBuilder.swift in Sources */,
+				C79B24AE6A35B47BC32BD011EB22F112 /* UISliderBuilder.swift in Sources */,
+				901827C740055D1B3E09358C80487618 /* UIStackViewBuilder.swift in Sources */,
+				75B6846CDE93C696DA2B5BDF89957CF6 /* UIStepperBuilder.swift in Sources */,
+				366BED9614D578565E73D3C1C6A31AAE /* UISwitchBuilder.swift in Sources */,
+				5BA717FE7FBB79C9968BC4A449C9C096 /* UITableViewBuilder.swift in Sources */,
+				6183B9BBBF80534BFC2C08D044509B26 /* UITextFieldBuilder.swift in Sources */,
+				033B1D276B0B8EA64AAA7EAB72934A9F /* UITextViewBuilder.swift in Sources */,
+				CE5AF0FF7CC1908FF22D68D43B6EF147 /* UIViewBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90CBB5B2121BABC2DAD58BD9347F34E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,44 +368,120 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5DF821C6440AC91A6B88353376FFC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1329D741455B6650EE73CC68DEFFEE5 /* AttributedStringDictionaryBuilder.swift in Sources */,
-				3A32B5E5ED6B7D44C8A6D52CA3A08275 /* MobilliumBuilders-dummy.m in Sources */,
-				59B26C6CD2C859929AFD8C0282546D14 /* UIBarButtonItemBuilder.swift in Sources */,
-				F5B0E42D7641FA5748DF51B34C584B37 /* UIButtonBuilder.swift in Sources */,
-				6BD47402E4FD2909BAC0E6CD559BE104 /* UICollectionViewBuilder.swift in Sources */,
-				3B285CA1FA5FACCFE61BD88081D417D6 /* UIImageViewBuilder.swift in Sources */,
-				CD925788019E578D02ACF222EB0F958D /* UILabelBuilder.swift in Sources */,
-				CEEA20A60962DB3C7675A01C28F9BB0B /* UIPageControlBuilder.swift in Sources */,
-				41294D5CDCB6AF283194C5D79E885AEF /* UIProgressViewBuilder.swift in Sources */,
-				5591A974A07C2692CC7DD294662C806D /* UIScrollViewBuilder.swift in Sources */,
-				C7B785D3C093D831DD543E5BBDE67DFB /* UISliderBuilder.swift in Sources */,
-				19874AF5823D11C2A8DBBA5DA090FD32 /* UIStackViewBuilder.swift in Sources */,
-				3A42BDA5CFFA9CBF9132D15560F15073 /* UIStepperBuilder.swift in Sources */,
-				FA706DA511684656A7D545E3D5699299 /* UISwitchBuilder.swift in Sources */,
-				951CD616B3123948D7197ACEFB2194A4 /* UITableViewBuilder.swift in Sources */,
-				F81BB63D084E49EC3FD81CFACBF6BD90 /* UITextFieldBuilder.swift in Sources */,
-				AAE9DCC8A72603772C5B747B1CA72D57 /* UITextViewBuilder.swift in Sources */,
-				3F67A608A947EEBB6D6E82D2A5CACA48 /* UIViewBuilder.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E87B217AA01029391C0FB660032262D3 /* PBXTargetDependency */ = {
+		974FB83F13A9B9254BE6999838C55707 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MobilliumBuilders;
 			target = 68E501821970C685DF5C5983E7618A3B /* MobilliumBuilders */;
-			targetProxy = C65FA9D813C0792D1B60F82E4FA6AB86 /* PBXContainerItemProxy */;
+			targetProxy = 607C48FE87323B536F3F9DCDCEB11E1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+		1F2B4A8B16188F16CB94BC961ED092E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADE4FD0D519D2AE54557BD5EF31E903 /* Pods-MobilliumBuilders_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		507AA3528B810F14C1D4C6915EB4BA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED6C7395D6843A3154E1E9C2F350205 /* MobilliumBuilders.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobilliumBuilders/MobilliumBuilders-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders.modulemap";
+				PRODUCT_MODULE_NAME = MobilliumBuilders;
+				PRODUCT_NAME = MobilliumBuilders;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833DD7D3AA50D4A4780154AE7378A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AD62E3D5C5DBE8886135E99C874E88 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,42 +543,12 @@
 			};
 			name = Release;
 		};
-		51C3CBF5ADAC245B01134243B4C52CD9 /* Debug */ = {
+		AAD908644C4C64506265CF49FA6D0FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2AD62E3D5C5DBE8886135E99C874E88 /* Pods-MobilliumBuilders_Tests.debug.xcconfig */;
+			baseConfigurationReference = 79E60BD725F9A50A06DA280CD66809FE /* MobilliumBuilders.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5607C0493B145337813A4939A43BA9D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E50252EB8A35CCB82DB75DCE525ED35 /* MobilliumBuilders.debug.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -485,7 +560,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MobilliumBuilders/MobilliumBuilders-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders.modulemap";
 				PRODUCT_MODULE_NAME = MobilliumBuilders;
@@ -495,12 +570,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -553,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -566,78 +642,14 @@
 			};
 			name = Debug;
 		};
-		7F44D359EEC0F9DEA57C998F04B7D331 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CADE4FD0D519D2AE54557BD5EF31E903 /* Pods-MobilliumBuilders_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MobilliumBuilders_Tests/Pods-MobilliumBuilders_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2B1B390020F41BE5BD4ACA45E52C001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E8907A8A6A5377DE4AB2B5BDFF6703 /* MobilliumBuilders.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MobilliumBuilders/MobilliumBuilders-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MobilliumBuilders/MobilliumBuilders.modulemap";
-				PRODUCT_MODULE_NAME = MobilliumBuilders;
-				PRODUCT_NAME = MobilliumBuilders;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79759604D78320E712558F49DF19AA9F /* Debug */,
-				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -645,17 +657,17 @@
 		6C7C94AA0C4FA05DB65C3C81831863FF /* Build configuration list for PBXNativeTarget "Pods-MobilliumBuilders_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51C3CBF5ADAC245B01134243B4C52CD9 /* Debug */,
-				7F44D359EEC0F9DEA57C998F04B7D331 /* Release */,
+				833DD7D3AA50D4A4780154AE7378A26B /* Debug */,
+				1F2B4A8B16188F16CB94BC961ED092E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5BD368B48E94029D0E5BFC4BC3C9F60 /* Build configuration list for PBXNativeTarget "MobilliumBuilders" */ = {
+		B331B95EB19A7F2E2FB9B1394248D1BD /* Build configuration list for PBXNativeTarget "MobilliumBuilders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5607C0493B145337813A4939A43BA9D3 /* Debug */,
-				F2B1B390020F41BE5BD4ACA45E52C001 /* Release */,
+				507AA3528B810F14C1D4C6915EB4BA4D /* Debug */,
+				AAD908644C4C64506265CF49FA6D0FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

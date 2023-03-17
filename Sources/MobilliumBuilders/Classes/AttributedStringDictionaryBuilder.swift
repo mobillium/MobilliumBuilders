@@ -21,7 +21,7 @@ public class AttributedStringDictionaryBuilder {
     }
     
     @discardableResult
-    public func paragraphStyle(_ paragraphStyle: NSMutableParagraphStyle) -> Self {
+    public func paragraphStyle(_ paragraphStyle: NSParagraphStyle) -> Self {
         self.attributes[.paragraphStyle] = paragraphStyle
         return self
     }
@@ -39,7 +39,7 @@ public class AttributedStringDictionaryBuilder {
     }
     
     @discardableResult
-    public func kern(_ kern: Int) -> Self {
+    public func kern(_ kern: Double) -> Self {
         self.attributes[.kern] = kern
         return self
     }

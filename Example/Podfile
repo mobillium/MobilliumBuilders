@@ -1,6 +1,8 @@
 use_frameworks!
+
+platform :ios, '11.0'
+
 target 'MobilliumBuilders_Tests' do
   pod 'MobilliumBuilders', :path => '../'
-  
   
 end

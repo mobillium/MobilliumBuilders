@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import MobilliumBuilders
+@testable import MobilliumBuilders
 
 class UIProgressViewBuilderTests: XCTestCase {
 

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import MobilliumBuilders
+@testable import MobilliumBuilders
 
 class AttributedStringDictionaryBuilderTests: XCTestCase {
         
@@ -23,14 +23,14 @@ class AttributedStringDictionaryBuilderTests: XCTestCase {
     }
     
     func testParagraphStyle() {
-        let paragraphStyle = NSMutableParagraphStyle()
+        let paragraphStyle = NSParagraphStyle()
         let attributes = AttributedStringDictionaryBuilder()
             .paragraphStyle(paragraphStyle)
             .build()
         
         XCTAssertFalse(attributes.isEmpty)
         XCTAssertEqual(attributes.count, 1)
-        XCTAssertEqual(paragraphStyle, attributes[.paragraphStyle] as? NSMutableParagraphStyle)
+        XCTAssertEqual(paragraphStyle, attributes[.paragraphStyle] as? NSParagraphStyle)
     }
     
     func testForegroundColor() {
@@ -56,14 +56,14 @@ class AttributedStringDictionaryBuilderTests: XCTestCase {
     }
     
     func testKern() {
-        let kern: Int = 3
+        let kern: Double = 3
         let attributes = AttributedStringDictionaryBuilder()
             .kern(kern)
             .build()
         
         XCTAssertFalse(attributes.isEmpty)
         XCTAssertEqual(attributes.count, 1)
-        XCTAssertEqual(kern, attributes[.kern] as? Int)
+        XCTAssertEqual(kern, attributes[.kern] as? Double)
     }
     
     func testStrikethrough() {

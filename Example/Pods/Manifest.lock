@@ -1,5 +1,5 @@
 PODS:
-  - MobilliumBuilders (1.4.2)
+  - MobilliumBuilders (1.5.0)
 
 DEPENDENCIES:
   - MobilliumBuilders (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MobilliumBuilders: 48c29da981a9593ac7f7873d154f9a76b80ffcab
+  MobilliumBuilders: c43bd6b118f3f7efbe72fde450af21e27199516b
 
-PODFILE CHECKSUM: 61f4e0575a18a912fde25a7e488696c4df09c291
+PODFILE CHECKSUM: 855a619061f4dafce06cfeb3a028988678d160b0
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0
