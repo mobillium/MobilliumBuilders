@@ -23,14 +23,14 @@ class AttributedStringDictionaryBuilderTests: XCTestCase {
     }
     
     func testParagraphStyle() {
-        let paragraphStyle = NSParagraphStyle()
+        let paragraphStyle = NSMutableParagraphStyle()
         let attributes = AttributedStringDictionaryBuilder()
             .paragraphStyle(paragraphStyle)
             .build()
         
         XCTAssertFalse(attributes.isEmpty)
         XCTAssertEqual(attributes.count, 1)
-        XCTAssertEqual(paragraphStyle, attributes[.paragraphStyle] as? NSParagraphStyle)
+        XCTAssertEqual(paragraphStyle, attributes[.paragraphStyle] as? NSMutableParagraphStyle)
     }
     
     func testForegroundColor() {

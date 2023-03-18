@@ -21,7 +21,7 @@ public class AttributedStringDictionaryBuilder {
     }
     
     @discardableResult
-    public func paragraphStyle(_ paragraphStyle: NSParagraphStyle) -> Self {
+    public func paragraphStyle(_ paragraphStyle: NSMutableParagraphStyle) -> Self {
         self.attributes[.paragraphStyle] = paragraphStyle
         return self
     }
