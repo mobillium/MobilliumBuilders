@@ -91,13 +91,6 @@ public class MutableParagraphStyleBuilder {
         return self
     }
     
-    @available(iOS 15.0, *)
-    @discardableResult
-    public func usesDefaultHyphenation(_ usesDefaultHyphenation: Bool) -> Self {
-        self.mutableParagraphStyle.usesDefaultHyphenation = usesDefaultHyphenation
-        return self
-    }
-    
     @discardableResult
     public func tabStops(_ tabStops: [NSTextTab]) -> Self {
         self.mutableParagraphStyle.tabStops = tabStops
@@ -119,12 +112,6 @@ public class MutableParagraphStyleBuilder {
     @discardableResult
     public func lineBreakStrategy(_ lineBreakStrategy: NSParagraphStyle.LineBreakStrategy) -> Self {
         self.mutableParagraphStyle.lineBreakStrategy = lineBreakStrategy
-        return self
-    }
-    
-    @discardableResult
-    public func textLists(_ textLists: [NSTextList]) -> Self {
-        self.mutableParagraphStyle.textLists = textLists
         return self
     }
     

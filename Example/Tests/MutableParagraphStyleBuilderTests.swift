@@ -128,16 +128,6 @@ final class MutableParagraphStyleBuilderTests: XCTestCase {
         XCTAssertEqual(paragraphStyle.hyphenationFactor, hyphenationFactor)
     }
     
-    @available(iOS 15.0, *)
-    func testUsesDefaultHyphenation() {
-        let usesDefaultHyphenation: Bool = true
-        let paragraphStyle = MutableParagraphStyleBuilder()
-            .usesDefaultHyphenation(usesDefaultHyphenation)
-            .build()
-        
-        XCTAssertEqual(paragraphStyle.usesDefaultHyphenation, usesDefaultHyphenation)
-    }
-    
     func testTabStops() {
         let tabStops: [NSTextTab] = [NSTextTab(textAlignment: .left, location: 0)]
         let paragraphStyle = MutableParagraphStyleBuilder()
@@ -174,16 +164,5 @@ final class MutableParagraphStyleBuilderTests: XCTestCase {
             .build()
         
         XCTAssertEqual(paragraphStyle.lineBreakStrategy, lineBreakStrategy)
-    }
-    
-    func testTextLists() {
-        let textLists: [NSTextList] = [NSTextList(markerFormat: .box, options: 0)]
-        let paragraphStyle = MutableParagraphStyleBuilder()
-            .textLists(textLists)
-            .build()
-        
-        XCTAssertTrue(!paragraphStyle.textLists.isEmpty)
-        XCTAssertEqual(paragraphStyle.textLists.count, textLists.count)
-        XCTAssertEqual(paragraphStyle.textLists, textLists)
     }
 }
