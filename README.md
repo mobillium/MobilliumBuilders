@@ -24,6 +24,7 @@ pod 'MobilliumBuilders'
 ## Usage
 MobilliumBuilders comes with these builders.
 - AttributedStringDictionaryBuilder
+- MutableParagraphStyleBuilder
 - UIButtonBuilder
 - UIImageViewBuilder
 - UILabelBuilder
