@@ -1,6 +1,6 @@
 {
   "name": "MobilliumBuilders",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "summary": "Builders classes",
   "homepage": "https://github.com/mobillium/MobilliumBuilders",
   "license": {
@@ -12,11 +12,11 @@
   },
   "source": {
     "git": "https://github.com/mobillium/MobilliumBuilders.git",
-    "tag": "1.4.2"
+    "tag": "1.5.0"
   },
   "social_media_url": "https://twitter.com/mobillium",
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "swift_versions": "5.0",
   "source_files": "Sources/MobilliumBuilders/Classes/**/*",

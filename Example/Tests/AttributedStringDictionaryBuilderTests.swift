@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import MobilliumBuilders
+@testable import MobilliumBuilders
 
 class AttributedStringDictionaryBuilderTests: XCTestCase {
         
@@ -56,14 +56,14 @@ class AttributedStringDictionaryBuilderTests: XCTestCase {
     }
     
     func testKern() {
-        let kern: Int = 3
+        let kern: Double = 3
         let attributes = AttributedStringDictionaryBuilder()
             .kern(kern)
             .build()
         
         XCTAssertFalse(attributes.isEmpty)
         XCTAssertEqual(attributes.count, 1)
-        XCTAssertEqual(kern, attributes[.kern] as? Int)
+        XCTAssertEqual(kern, attributes[.kern] as? Double)
     }
     
     func testStrikethrough() {
