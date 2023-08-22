@@ -116,6 +116,12 @@ public class UIImageViewBuilder<T: UIImageView> {
     }
     
     @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.imageView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
+    @discardableResult
     public func size(_ size: CGSize) -> Self {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.widthAnchor.constraint(equalToConstant: size.width).isActive = true

@@ -97,6 +97,12 @@ public class UISliderBuilder<T: UISlider> {
         return self
     }
     
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.slider.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return slider
     }

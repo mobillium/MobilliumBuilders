@@ -147,6 +147,12 @@ public class UITextFieldBuilder<T: UITextField> {
         return self
     }
     
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.textField.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return textField
     }

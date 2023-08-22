@@ -145,6 +145,12 @@ public class UILabelBuilder<T: UILabel> {
         return self
     }
     
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.label.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return label
     }

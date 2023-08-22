@@ -109,6 +109,12 @@ public class UIViewBuilder<T: UIView> {
         return self
     }
     
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.view.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return view
     }
