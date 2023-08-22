@@ -146,4 +146,12 @@ class UIScrollViewBuilderTests: XCTestCase {
         
         XCTAssertEqual(scrollView.accessibilityIdentifier, accessibilityIdentifier)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let scrollView = UIScrollViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(scrollView.translatesAutoresizingMaskIntoConstraints)
+    }
 }

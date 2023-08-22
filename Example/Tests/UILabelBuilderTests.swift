@@ -209,4 +209,12 @@ class UILabelBuilderTests: XCTestCase {
         XCTAssertEqual(label.accessibilityIdentifier, accessibilityIdentifier)
     }
     
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let label = UILabelBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(label.translatesAutoresizingMaskIntoConstraints)
+    }
+    
 }

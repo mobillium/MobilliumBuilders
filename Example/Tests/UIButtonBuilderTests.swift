@@ -240,6 +240,14 @@ class UIButtonBuilderTests: XCTestCase {
         
         XCTAssertEqual(button.titleLabel?.font, font)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let button = UIButtonBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(button.translatesAutoresizingMaskIntoConstraints)
+    }
 }
 
 // MARK: - Custom UIButton

@@ -115,4 +115,12 @@ class UIStackViewBuilderTests: XCTestCase {
         
         XCTAssertTrue(stackView.clipsToBounds)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let stackView = UIStackViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(stackView.translatesAutoresizingMaskIntoConstraints)
+    }
 }

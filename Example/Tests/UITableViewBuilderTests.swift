@@ -203,4 +203,12 @@ class UITableViewBuilderTests: XCTestCase {
         }
         XCTAssertTrue(isContainsIdentifier)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let tableView = UITableViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(tableView.translatesAutoresizingMaskIntoConstraints)
+    }
 }
