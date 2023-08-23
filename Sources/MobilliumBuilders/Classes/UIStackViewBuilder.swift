@@ -80,6 +80,12 @@ public class UIStackViewBuilder<T: UIStackView> {
         return self
     }
     
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.stackView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return stackView
     }

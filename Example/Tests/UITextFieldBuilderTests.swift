@@ -212,4 +212,12 @@ class UITextFieldBuilderTests: XCTestCase {
         
         XCTAssertEqual(textField.autocapitalizationType, autocapitalizationType)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let textField = UITextFieldBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(textField.translatesAutoresizingMaskIntoConstraints)
+    }
 }

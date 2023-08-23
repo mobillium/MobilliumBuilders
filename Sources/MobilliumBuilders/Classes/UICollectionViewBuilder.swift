@@ -126,7 +126,7 @@ public class UICollectionViewBuilder<T: UICollectionView> {
         self.collectionView.accessibilityIdentifier = accessibilityIdentifier
         return self
     }
-
+    
     @discardableResult
     public func registerCell<C: UICollectionViewCell>(_ cellType: C.Type, reuseIdentifier: String) -> Self {
         self.collectionView.register(cellType, forCellWithReuseIdentifier: reuseIdentifier)
@@ -168,6 +168,12 @@ public class UICollectionViewBuilder<T: UICollectionView> {
     @discardableResult
     public func tintColor(_ tintColor: UIColor) -> Self {
         self.collectionView.tintColor = tintColor
+        return self
+    }
+    
+    @discardableResult
+    public func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool = false) -> Self {
+        self.collectionView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
         return self
     }
     

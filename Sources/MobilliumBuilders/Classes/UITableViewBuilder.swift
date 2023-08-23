@@ -134,7 +134,13 @@ public class UITableViewBuilder<T: UITableView> {
         self.tableView.register(cellType, forCellReuseIdentifier: reuseIdentifier)
         return self
     }
-
+    
+    @discardableResult
+    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+        self.tableView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return tableView
     }

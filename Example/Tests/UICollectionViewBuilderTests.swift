@@ -271,5 +271,13 @@ class UICollectionViewBuilderTests: XCTestCase {
 
         XCTAssertEqual(tintColor, collectionView.tintColor)
     }
+    
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let collectionView = UICollectionViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(collectionView.translatesAutoresizingMaskIntoConstraints)
+    }
 
 }

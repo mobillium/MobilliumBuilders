@@ -165,6 +165,12 @@ public class UIButtonBuilder<T: UIButton> {
         return self
     }
     
+    @discardableResult
+    public func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool = false) -> Self {
+        self.button.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+        return self
+    }
+    
     public func build() -> T {
         return button
     }

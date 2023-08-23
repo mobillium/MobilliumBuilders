@@ -171,4 +171,12 @@ class UIImageViewBuilderTests: XCTestCase {
         XCTAssertEqual(heightConstraint.constant, size.height)
     }
     
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let imageView = UIImageViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(imageView.translatesAutoresizingMaskIntoConstraints)
+    }
+    
 }

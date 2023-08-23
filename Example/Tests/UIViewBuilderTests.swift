@@ -149,4 +149,12 @@ class UIViewBuilderTests: XCTestCase {
         XCTAssertEqual(view.accessibilityIdentifier, accessibilityIdentifier)
     }
     
+    func testTranslatesAutoresizingMaskIntoConstraints() {
+        let view = UIViewBuilder()
+            .translatesAutoresizingMaskIntoConstraints(true)
+            .build()
+        
+        XCTAssertTrue(view.translatesAutoresizingMaskIntoConstraints)
+    }
+    
 }
