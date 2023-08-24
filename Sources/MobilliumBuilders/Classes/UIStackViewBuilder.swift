@@ -81,7 +81,7 @@ public class UIStackViewBuilder<T: UIStackView> {
     }
     
     @discardableResult
-    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+    public func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
         self.stackView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
         return self
     }

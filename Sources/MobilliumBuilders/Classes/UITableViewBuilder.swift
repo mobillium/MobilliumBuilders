@@ -136,7 +136,7 @@ public class UITableViewBuilder<T: UITableView> {
     }
     
     @discardableResult
-    func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+    public func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
         self.tableView.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
         return self
     }
